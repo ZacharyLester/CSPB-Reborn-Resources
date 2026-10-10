@@ -1,0 +1,12 @@
+global
+{ 
+	ZOOM		1.35
+	ORIGIN		128.00	288.00	-321.00
+	ROTATED		1
+}
+
+layer
+{
+	IMAGE	"overviews/pb_portacaba.bmp"
+	HEIGHT	-321.00
+}

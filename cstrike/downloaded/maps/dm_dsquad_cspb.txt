@@ -1,0 +1,18 @@
+D-Squad (from Point Blank) - Deathmatch/Elminate
+by RE-29 Project (http://RE-29.blogspot.com/)
+
+Project by:
+- Rahmat Efendi
+- Muh Hisyam
+
+Original Textures & Models:
+Zepetto Co.
+
+Description: 
+CT-Force akan membawa CS berisi informasi penting menggunakan subway.
+Free Rebels mengetahui ini dan berusaha mengambil alih subway dengan gas
+beracun. Dalam keadaan terjepit CT-Force berusaha keluar dari subway.
+Tetapi Free Rebels telah menjaga dan memasang perangkap pada subway...
+
+Last Updated: 09.06.20
+

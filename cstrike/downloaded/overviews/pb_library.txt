@@ -1,0 +1,14 @@
+// overview description file for pb_library.bsp
+
+global 
+{
+	ZOOM	2.74
+	ORIGIN	205.44 	-37.06	-98
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/pb_library.bmp"
+	HEIGHT	-98
+}

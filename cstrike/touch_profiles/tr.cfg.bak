@@ -55,7 +55,7 @@ touch_addbutton "scores" "gfx/buttons/score" "+showscores" 0.580000 0.855185 0.6
 touch_addbutton "lastinv" "gfx/buttons/lastinv" "lastinv" 0.660000 0.812426 0.740000 0.983463 255 255 255 89 0
 touch_addbutton "bots" "touch_default/map.tga" "exec touch/bots/bots" 0.440000 0.000000 0.480000 0.088889 255 255 255 0 8
 touch_addbutton "cmd" "touch_default/map.tga" "exec touch/cmd/cmd" 0.500000 0.000000 0.540000 0.088889 255 255 255 0 8
-touch_addbutton "nextinv" "gfx/buttons/invnext" "invnext" 0.860000 0.106667 0.920000 0.231111 255 255 255 114 0
+touch_addbutton "nextinv" "gfx/buttons/invnext" "invnext" 0.860000 0.106667 0.920000 0.231111 255 255 255 114 1
 touch_addbutton "reload" "gfx/buttons/reload" "+reload" 0.760000 0.817778 0.840000 0.995556 255 255 255 89 0
 touch_addbutton "duck" "gfx/buttons/duck" "+duck" 0.840000 0.444444 0.900000 0.577778 255 255 255 114 0
 touch_addbutton "2" "gfx/buttons/2" "slot2" 0.930000 0.400000 0.980000 0.511111 255 255 255 114 0

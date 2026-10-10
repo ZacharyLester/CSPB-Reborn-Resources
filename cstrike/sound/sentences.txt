@@ -115,3 +115,15 @@ MRAD_FOLLOWME_F radio/female/followme
 MRAD_MEETME_F radio/female/meetme
 MRAD_STORMFRONT_F radio/female/stormfront
 MRAD_NEGATIVE_F radio/female/negative
+
+MRAD_A_M radio/a
+MRAD_A_F radio/female/a
+
+MRAD_B_M radio/b
+MRAD_B_F radio/female/b
+
+MRAD_NICESHOT_M radio/niceshot
+MRAD_NICESHOT_F radio/female/niceshot
+
+MRAD_OHYEA_M radio/ohyea
+MRAD_OHYEA_F radio/female/ohyea

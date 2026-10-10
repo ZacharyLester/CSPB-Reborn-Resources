@@ -1,0 +1,13 @@
+//overview description file for pb_redrock.bsp
+global
+{ 
+	ZOOM		1.50
+	ORIGIN		0.00	0.00	192.00
+	ROTATED		0
+}
+
+layer
+{
+	IMAGE	"overviews/pb_redrock.tga"
+	HEIGHT	449.00
+}
