@@ -65,8 +65,8 @@ touch_addbutton "5" "gfx/buttons/5" "slot5" 0.930000 0.733333 0.980000 0.844444 
 touch_addbutton "4" "gfx/buttons/4" "slot4" 0.930000 0.622222 0.980000 0.733333 255 255 255 114 0
 touch_addbutton "3" "gfx/buttons/3" "slot3" 0.930000 0.511111 0.980000 0.622222 255 255 255 114 0
 touch_addbutton "lookback" "gfx/buttons/lookback" "+lookback" 0.610000 0.244444 0.730000 0.511111 255 255 255 76 0
-touch_addbutton "oinv" "t" "open_inventory" 0.000000 0.363454 0.070000 0.598630 255 255 255 0 0
 touch_addbutton "drop" "t" "drop" 0.850000 0.000000 1.000000 0.088889 255 255 255 0 0
 touch_addbutton "radio" "gfx/buttons/radio" "showvguimenu 38" 0.250000 0.866667 0.310000 1.000000 255 255 255 114 0
 touch_addbutton "spe" "gfx/buttons/b" "special_attack" 0.350000 0.866667 0.410000 1.000000 255 255 255 76 0
 touch_addbutton "macro" "gfx/buttons/macro" "+attack; wait; wait; wait; lastinv;" 0.250000 0.244444 0.370000 0.511111 255 255 255 76 0
+touch_addbutton "openinv" "gfx/buttons/macro" "openinv" 0.000000 0.251667 0.040000 0.545278 255 255 255 0 0

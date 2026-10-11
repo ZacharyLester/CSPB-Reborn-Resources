@@ -4,7 +4,7 @@
 //=======================================================================
 setr fullscreen "0"
 setr height "1080"
-setr hud_scale "0"
+setr hud_scale "1"
 setr vid_displayfrequency "0"
 setr vid_highdpi "1"
 setr vid_mode "-1"
