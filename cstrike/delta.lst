@@ -33,6 +33,7 @@ clientdata_t none
 	DEFINE_DELTA( punchangle[0], DT_SIGNED | DT_FLOAT, 26, 8192.0 ),
 	DEFINE_DELTA( punchangle[1], DT_SIGNED | DT_FLOAT, 26, 8192.0 ),
 	DEFINE_DELTA( viewmodel, DT_INTEGER, 10, 1.0 ),
+	DEFINE_DELTA( handmodel, DT_INTEGER, 10, 1.0 ),
 	DEFINE_DELTA( weapons, DT_INTEGER, 32, 1.0 ),
 
 	DEFINE_DELTA( pushmsec, DT_INTEGER, 11, 1.0 ),
@@ -175,7 +176,7 @@ entity_state_player_t gamedll Player_Encode
 	DEFINE_DELTA( basevelocity[0], DT_SIGNED | DT_FLOAT, 16, 8.0 ),
 	DEFINE_DELTA( basevelocity[1], DT_SIGNED | DT_FLOAT, 16, 8.0 ),
 	DEFINE_DELTA( basevelocity[2], DT_SIGNED | DT_FLOAT, 16, 8.0 ),
-	DEFINE_DELTA( spectator, DT_INTEGER, 1, 1.0 )
+	DEFINE_DELTA( spectator, DT_INTEGER, 1, 1.0 ),
 
 	DEFINE_DELTA( iuser3, DT_INTEGER, 8, 1.0 ),
 	DEFINE_DELTA( iuser4, DT_INTEGER, 2, 1.0 )
@@ -237,8 +238,8 @@ weapon_data_t none
 	DEFINE_DELTA( m_fInReload, DT_INTEGER, 1, 1.0 ),
 	DEFINE_DELTA( m_fAimedDamage, DT_FLOAT, 22, 1000.0 ),
 	DEFINE_DELTA( m_fInZoom, DT_INTEGER, 8, 1.0 ),
-	DEFINE_DELTA( m_iWeaponState, DT_INTEGER, 7, 1.0 )
-	DEFINE_DELTA( m_iId, DT_INTEGER, 5, 1.0 )
+	DEFINE_DELTA( m_iWeaponState, DT_INTEGER, 9, 1.0 ),
+	DEFINE_DELTA( m_iId, DT_INTEGER, 5, 1.0 ),
 	DEFINE_DELTA( fuser1, DT_SIGNED | DT_FLOAT, 22, 1000.0 ),
 	DEFINE_DELTA( fuser2, DT_SIGNED | DT_FLOAT, 22, 128.0  ),
 	DEFINE_DELTA( fuser3, DT_SIGNED | DT_FLOAT, 22, 128.0  ),
