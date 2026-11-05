@@ -394,7 +394,6 @@
 937 cstrike/gfx/vgui/death/2/weapon_kriss_sv_batik.png
 4227 cstrike/gfx/vgui/death/2/weapon_kriss_sv_silence.png
 4572 cstrike/gfx/vgui/death/2/weapon_kriss_sv_crb.png
-658 cstrike/gfx/vgui/death/2/weapon_m1887.png
 327 cstrike/gfx/vgui/death/2/weapon_m3.png
 658 cstrike/gfx/vgui/death/2/weapon_m1887_w.png
 703 cstrike/gfx/vgui/death/2/weapon_m4_cqb_lv1.png
@@ -463,6 +462,7 @@
 7440 cstrike/gfx/vgui/death/null.png
 7440 cstrike/gfx/vgui/death/worldspawn.png
 11141 cstrike/gfx/vgui/death/headshot.png
+658 cstrike/gfx/vgui/death/weapon_m1887.png
 6469 cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503 cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224 cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -540,6 +540,7 @@
 4778 cstrike/gfx/vgui/wpn_icon/weapon_m7.png
 3992 cstrike/gfx/vgui/wpn_icon/weapon_special.png
 8299 cstrike/gfx/vgui/wpn_icon/weapon_ssg69.png
+7106 cstrike/gfx/vgui/wpn_icon/weapon_m1887.png
 623503 cstrike/gfx/vgui/coin.png
 63584 cstrike/gfx/vgui/font.png
 353296 cstrike/models/arms/v_acid.mdl
@@ -1839,9 +1840,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4213912:42e6b17920979c3837bd325e7d9fae14 cstrike/arm64-v8a/libserver.so
-2692208:ea03d2f6d3b6106cb724833222510488 cstrike/arm64-v8a/libclient.so
-795360:d8162441b7f9d02d26eba5aac2df30f4 cstrike/arm64-v8a/libmenu.so
-505244:93226d557a016870b4676a21ab04fd8f cstrike/armeabi-v7a/libmenu.so
-1892332:662cd67fd7da7eb9b6336a4af53320d3 cstrike/armeabi-v7a/libclient.so
-2657340:8ab94daa062ebdd119396e85a87f5df5 cstrike/armeabi-v7a/libserver.so
+4230416:47c08a319b4738744417e0bad5df6744 cstrike/arm64-v8a/libserver.so
+2708648:ef68f053a3258db5953ec0bc41506660 cstrike/arm64-v8a/libclient.so
+795360:13e734e09aa4fea0a792052169dfd54a cstrike/arm64-v8a/libmenu.so
+505244:35483c545b2b60fd92512653cf35e222 cstrike/armeabi-v7a/libmenu.so
+1900556:18e0761bca1ab49f6c1d50d3a1bb7fae cstrike/armeabi-v7a/libclient.so
+2661508:fb1c693111fb3e73f73ed5200a31c84b cstrike/armeabi-v7a/libserver.so
