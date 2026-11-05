@@ -1839,9 +1839,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4213912 cstrike/arm64-v8a/libserver.so
-2692208 cstrike/arm64-v8a/libclient.so
-795360 cstrike/arm64-v8a/libmenu.so
-505244 cstrike/armeabi-v7a/libmenu.so
-1892332 cstrike/armeabi-v7a/libclient.so
-2657340 cstrike/armeabi-v7a/libserver.so
+4213912:42e6b17920979c3837bd325e7d9fae14 cstrike/arm64-v8a/libserver.so
+2692208:ea03d2f6d3b6106cb724833222510488 cstrike/arm64-v8a/libclient.so
+795360:d8162441b7f9d02d26eba5aac2df30f4 cstrike/arm64-v8a/libmenu.so
+505244:93226d557a016870b4676a21ab04fd8f cstrike/armeabi-v7a/libmenu.so
+1892332:662cd67fd7da7eb9b6336a4af53320d3 cstrike/armeabi-v7a/libclient.so
+2657340:8ab94daa062ebdd119396e85a87f5df5 cstrike/armeabi-v7a/libserver.so
