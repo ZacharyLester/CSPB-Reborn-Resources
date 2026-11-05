@@ -462,7 +462,7 @@
 7440 cstrike/gfx/vgui/death/null.png
 7440 cstrike/gfx/vgui/death/worldspawn.png
 11141 cstrike/gfx/vgui/death/headshot.png
-658 cstrike/gfx/vgui/death/weapon_m1887.png
+658 cstrike/gfx/vgui/death/d_m1887.png
 6469 cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503 cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224 cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -1840,9 +1840,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4230416:47c08a319b4738744417e0bad5df6744 cstrike/arm64-v8a/libserver.so
-2708648:ef68f053a3258db5953ec0bc41506660 cstrike/arm64-v8a/libclient.so
+4205840:8dd40fca3ccc925ad68e8fea33d9f88a cstrike/arm64-v8a/libserver.so
+2696360:a39e41c5af2a15d65d2e55d57079d9f1 cstrike/arm64-v8a/libclient.so
 795360:13e734e09aa4fea0a792052169dfd54a cstrike/arm64-v8a/libmenu.so
 505244:35483c545b2b60fd92512653cf35e222 cstrike/armeabi-v7a/libmenu.so
-1900556:18e0761bca1ab49f6c1d50d3a1bb7fae cstrike/armeabi-v7a/libclient.so
-2661508:fb1c693111fb3e73f73ed5200a31c84b cstrike/armeabi-v7a/libserver.so
+1900556:349d8ebf468f78505dbcfe01c4c50293 cstrike/armeabi-v7a/libclient.so
+2661508:41dbbb4da6f61b52a4036ac489c7a2b8 cstrike/armeabi-v7a/libserver.so
