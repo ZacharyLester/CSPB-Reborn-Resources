@@ -699,7 +699,7 @@
 1052256 cstrike/models/v_k5.mdl
 1550560 cstrike/models/v_kriss_sv.mdl
 917668 cstrike/models/v_kukri.mdl
-1123680 cstrike/models/v_m1887.mdl
+1124440 cstrike/models/v_m1887.mdl
 1035992 cstrike/models/v_m7.mdl
 1228540 cstrike/models/v_mp7.mdl
 1295576 cstrike/models/v_p90.mdl
