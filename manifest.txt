@@ -352,7 +352,6 @@
 826 cstrike/gfx/vgui/death/2/weapon_aksopmod_cg.png
 340 cstrike/gfx/vgui/death/2/weapon_amok.png
 1002 cstrike/gfx/vgui/death/2/weapon_apc.png
-691 cstrike/gfx/vgui/death/2/weapon_arabian_sword.png
 507 cstrike/gfx/vgui/death/2/weapon_arrow.png
 1095 cstrike/gfx/vgui/death/2/weapon_aug.png
 866 cstrike/gfx/vgui/death/2/weapon_as50.png
@@ -374,7 +373,6 @@
 603 cstrike/gfx/vgui/death/2/weapon_dual_knife.png
 1079 cstrike/gfx/vgui/death/2/weapon_famas_g2.png
 763 cstrike/gfx/vgui/death/2/weapon_f2000.png
-643 cstrike/gfx/vgui/death/2/weapon_fangblade.png
 747 cstrike/gfx/vgui/death/2/weapon_fg42.png
 387 cstrike/gfx/vgui/death/2/weapon_g36c.png
 1507 cstrike/gfx/vgui/death/2/weapon_gasbomb.png
@@ -462,9 +460,11 @@
 7440 cstrike/gfx/vgui/death/null.png
 7440 cstrike/gfx/vgui/death/worldspawn.png
 11141 cstrike/gfx/vgui/death/headshot.png
+643 cstrike/gfx/vgui/death/d_fangblade.png
 658 cstrike/gfx/vgui/death/d_m1887.png
 340 cstrike/gfx/vgui/death/d_kukri.png
 678 cstrike/gfx/vgui/death/d_sf_shotgun.png
+691 cstrike/gfx/vgui/death/d_arabian_sword.png
 6469 cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503 cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224 cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -545,6 +545,8 @@
 7106 cstrike/gfx/vgui/wpn_icon/weapon_m1887.png
 8798 cstrike/gfx/vgui/wpn_icon/weapon_kukri.png
 10415 cstrike/gfx/vgui/wpn_icon/weapon_sf_shotgun.png
+8903 cstrike/gfx/vgui/wpn_icon/weapon_arabian_sword.png
+8858 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
 623503 cstrike/gfx/vgui/coin.png
 63584 cstrike/gfx/vgui/font.png
 441180 cstrike/models/arms/v_acid.mdl
@@ -727,6 +729,7 @@
 584016 cstrike/models/b_sf_shotgun.mdl
 587724 cstrike/models/p_sf_shotgun.mdl
 82200 cstrike/models/p_butterfly.mdl
+301608 cstrike/models/p_arabian_sword.mdl
 19326 cstrike/sound/PB/SMG/mp7_load.wav
 20780 cstrike/sound/PB/SMG/Change_SMG.wav
 31650 cstrike/sound/PB/SMG/mp7_reload.wav
@@ -1848,9 +1851,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4234752:508f73f10de77188d4517da26b37ab27 cstrike/arm64-v8a/libserver.so
-2716952:c981b175ffbbdfe9a49d17b859ac92e3 cstrike/arm64-v8a/libclient.so
-803552:6e8f9a8fd756dc0e5bf1ddc439bc1362 cstrike/arm64-v8a/libmenu.so
-505244:037ca9ce1d63bbb41dabfdb1f9d544d3 cstrike/armeabi-v7a/libmenu.so
-1908812:e75aaea07637b473b0e946a0c5571496 cstrike/armeabi-v7a/libclient.so
-2678036:db49f00a4a11b7debddce560b0164981 cstrike/armeabi-v7a/libserver.so
+4275952:ea7b3a19e106ae8daf39cc660b7db381 cstrike/arm64-v8a/libserver.so
+2758024:e6a894af9cd6c57ee85b83b69296a15d cstrike/arm64-v8a/libclient.so
+795360:8f283a28682b7ac5050589a179ed6776 cstrike/arm64-v8a/libmenu.so
+505244:5003680a6b82f3512aeb383ac64db273 cstrike/armeabi-v7a/libmenu.so
+1921164:3e8dcac58414ee07ee51bcdfc658031d cstrike/armeabi-v7a/libclient.so
+2690468:d214d405f75c8968e9d4e0a0a78f79e1 cstrike/armeabi-v7a/libserver.so
