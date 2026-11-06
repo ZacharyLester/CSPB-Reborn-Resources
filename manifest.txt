@@ -707,7 +707,7 @@
 1035992 cstrike/models/v_m7.mdl
 1228540 cstrike/models/v_mp7.mdl
 1295576 cstrike/models/v_p90.mdl
-1579176 cstrike/models/v_sf_shotgun.mdl
+1576992 cstrike/models/v_sf_shotgun.mdl
 1015320 cstrike/models/v_smokegrenade.mdl
 1369132 cstrike/models/v_ssg69.mdl
 783948 cstrike/models/w_GrenadeLauncher_AK47.mdl
@@ -723,9 +723,9 @@
 1950288 cstrike/models/w_sniper_1.mdl
 7752 cstrike/models/w_thighpack.mdl
 29912 cstrike/models/winebottle.mdl
-586044 cstrike/models/w_sf_shotgun.mdl
-583988 cstrike/models/b_sf_shotgun.mdl
-587696 cstrike/models/p_sf_shotgun.mdl
+586056 cstrike/models/w_sf_shotgun.mdl
+584016 cstrike/models/b_sf_shotgun.mdl
+587724 cstrike/models/p_sf_shotgun.mdl
 19326 cstrike/sound/PB/SMG/mp7_load.wav
 20780 cstrike/sound/PB/SMG/Change_SMG.wav
 31650 cstrike/sound/PB/SMG/mp7_reload.wav
