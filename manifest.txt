@@ -1842,7 +1842,7 @@
 3232 cstrike/sound/sentences.txt
 4205840:ae1dab84a73e16014bc47c4c505a0db5 cstrike/arm64-v8a/libserver.so
 2696360:52ca59c42e2476603e0a4fb9d5d35c56 cstrike/arm64-v8a/libclient.so
-799456:9d3191ee566c5582f75fb03e21436a6d cstrike/arm64-v8a/libmenu.so
-505244:3078fc5082f83f746e8973dd5dcd7572 cstrike/armeabi-v7a/libmenu.so
+795360:dc9715a6e4e0df1f7d9f62c4fcd76538 cstrike/arm64-v8a/libmenu.so
+505244:3f7f3b437a921f63e69ae7f35d47b3ee cstrike/armeabi-v7a/libmenu.so
 1900556:b56b412fcf3fa891c734b1c76cf4459c cstrike/armeabi-v7a/libclient.so
 2661508:8b855fa76638ffb7d4b9e95f76e8b6f0 cstrike/armeabi-v7a/libserver.so
