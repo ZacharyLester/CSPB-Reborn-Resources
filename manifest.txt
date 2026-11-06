@@ -547,10 +547,10 @@
 10415 cstrike/gfx/vgui/wpn_icon/weapon_sf_shotgun.png
 623503 cstrike/gfx/vgui/coin.png
 63584 cstrike/gfx/vgui/font.png
-353296 cstrike/models/arms/v_acid.mdl
-86928 cstrike/models/arms/v_acid.wgt
-146568 cstrike/models/arms/v_bella.wgt
-385916 cstrike/models/arms/v_bella.mdl
+441180 cstrike/models/arms/v_acid.mdl
+173848 cstrike/models/arms/v_acid.wgt
+293128 cstrike/models/arms/v_bella.wgt
+506608 cstrike/models/arms/v_bella.mdl
 489796 cstrike/models/arms/v_bellabelly.mdl
 104400 cstrike/models/arms/v_bellabelly.wgt
 485324 cstrike/models/arms/v_bope.mdl
@@ -565,8 +565,8 @@
 106248 cstrike/models/arms/v_hitman.wgt
 519104 cstrike/models/arms/v_invasion.mdl
 141080 cstrike/models/arms/v_invasion.wgt
-340364 cstrike/models/arms/v_keen.mdl
-81888 cstrike/models/arms/v_keen.wgt
+415444 cstrike/models/arms/v_keen.mdl
+163768 cstrike/models/arms/v_keen.wgt
 339536 cstrike/models/arms/v_leopard.mdl
 80208 cstrike/models/arms/v_leopard.wgt
 104288 cstrike/models/arms/v_nurse.wgt
@@ -577,9 +577,9 @@
 514044 cstrike/models/arms/v_pocong.mdl
 136936 cstrike/models/arms/v_rangda.wgt
 518708 cstrike/models/arms/v_rangda.mdl
-355488 cstrike/models/arms/v_redbull.mdl
+445628 cstrike/models/arms/v_redbull.mdl
 342784 cstrike/models/arms/v_tarantula.mdl
-93984 cstrike/models/arms/v_redbull.wgt
+187960 cstrike/models/arms/v_redbull.wgt
 83792 cstrike/models/arms/v_tarantula.wgt
 611620 cstrike/models/arms/v_viper.mdl
 90456 cstrike/models/arms/v_viper.wgt
@@ -687,7 +687,7 @@
 22360 cstrike/models/support1.mdl
 23592 cstrike/models/support3.mdl
 1332472 cstrike/models/v_870mcs.mdl
-1332472 cstrike/models/v_870mcs_s.mdl
+1368004 cstrike/models/v_870mcs_s.mdl
 217100 cstrike/models/truck.mdl
 2148648 cstrike/models/v_ak47_fc.mdl
 1068048 cstrike/models/v_arabian_sword.mdl
@@ -726,6 +726,7 @@
 586056 cstrike/models/w_sf_shotgun.mdl
 584016 cstrike/models/b_sf_shotgun.mdl
 587724 cstrike/models/p_sf_shotgun.mdl
+82200 cstrike/models/p_butterfly.mdl
 19326 cstrike/sound/PB/SMG/mp7_load.wav
 20780 cstrike/sound/PB/SMG/Change_SMG.wav
 31650 cstrike/sound/PB/SMG/mp7_reload.wav
