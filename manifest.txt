@@ -554,6 +554,11 @@
 8858 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
 623503 cstrike/gfx/vgui/coin.png
 63584 cstrike/gfx/vgui/font.png
+2166122 cstrike/gfx/vgui/update/update3.png
+2147452 cstrike/gfx/vgui/update/update2.png
+2116749 cstrike/gfx/vgui/update/update1.png
+2174098 cstrike/gfx/vgui/update/update4.png
+2250767 cstrike/gfx/vgui/update/update5.png
 441180 cstrike/models/arms/v_acid.mdl
 173848 cstrike/models/arms/v_acid.wgt
 293128 cstrike/models/arms/v_bella.wgt
@@ -1858,7 +1863,7 @@
 3232 cstrike/sound/sentences.txt
 4271920:3bad98dc667d8a3c1e570b7f007edeea cstrike/arm64-v8a/libserver.so
 2741640:9d6a79e17b6508a11153361078632d48 cstrike/arm64-v8a/libclient.so
-811776:f22a8a29028647e37c0b153b88473ca5 cstrike/arm64-v8a/libmenu.so
-513452:70115c8f11f36d4ab4ef3675c6b9ab2c cstrike/armeabi-v7a/libmenu.so
+819968:57f73a5e875488b5fc78b252f116a308 cstrike/arm64-v8a/libmenu.so
+517548:f4d16a8d4f17d98675ab43e3b6148806 cstrike/armeabi-v7a/libmenu.so
 1917068:6a6197c39fc91514d3cef951644f108f cstrike/armeabi-v7a/libclient.so
 2694604:029b3e6ea66bbf014aed0577681c6162 cstrike/armeabi-v7a/libserver.so
