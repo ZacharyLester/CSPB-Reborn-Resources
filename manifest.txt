@@ -341,9 +341,9 @@
 18932 cstrike/gfx/vgui/chars/soon.png
 195 cstrike/gfx/vgui/crosshair/crosshair_default.png
 322 cstrike/gfx/vgui/crosshair/crosshair_default_red.png
-170 cstrike/gfx/vgui/crosshair/crosshair_laser.png
 1772 cstrike/gfx/vgui/crosshair/crosshair_grenade.png
 462954 cstrike/gfx/vgui/crosshair/eotech.png
+170 cstrike/gfx/vgui/crosshair/crosshair_laser.png
 507 cstrike/gfx/vgui/death/2/arrow.png
 443 cstrike/gfx/vgui/death/2/claymore.png
 237 cstrike/gfx/vgui/death/2/k400.png
@@ -1858,7 +1858,7 @@
 3232 cstrike/sound/sentences.txt
 4271920:3bad98dc667d8a3c1e570b7f007edeea cstrike/arm64-v8a/libserver.so
 2741640:9d6a79e17b6508a11153361078632d48 cstrike/arm64-v8a/libclient.so
-811776:26f38d83a77f0677164280c193b85fbc cstrike/arm64-v8a/libmenu.so
-513452:3d8fbebbf90895048e3ff986cba263d5 cstrike/armeabi-v7a/libmenu.so
+811776:f22a8a29028647e37c0b153b88473ca5 cstrike/arm64-v8a/libmenu.so
+513452:70115c8f11f36d4ab4ef3675c6b9ab2c cstrike/armeabi-v7a/libmenu.so
 1917068:6a6197c39fc91514d3cef951644f108f cstrike/armeabi-v7a/libclient.so
 2694604:029b3e6ea66bbf014aed0577681c6162 cstrike/armeabi-v7a/libserver.so
