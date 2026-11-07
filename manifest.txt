@@ -95,6 +95,8 @@
 295251 cstrike/downloaded/maps/pb_luxville.nav
 13837704 cstrike/downloaded/maps/pb_mstation.bsp
 184852 cstrike/downloaded/maps/pb_mstation.nav
+196971 cstrike/downloaded/maps/lobby.nav
+1359684 cstrike/downloaded/maps/lobby.bsp
 3686454 cstrike/downloaded/levelshots/pb_burning_hall_16x9.bmp
 3686454 cstrike/downloaded/levelshots/pb_luxville_16x9.bmp
 3686454 cstrike/downloaded/levelshots/pb_mstation_16x9.bmp
@@ -352,6 +354,7 @@
 826 cstrike/gfx/vgui/death/2/weapon_aksopmod_cg.png
 340 cstrike/gfx/vgui/death/2/weapon_amok.png
 1002 cstrike/gfx/vgui/death/2/weapon_apc.png
+643 cstrike/gfx/vgui/death/2/weapon_fangblade.png
 507 cstrike/gfx/vgui/death/2/weapon_arrow.png
 1095 cstrike/gfx/vgui/death/2/weapon_aug.png
 866 cstrike/gfx/vgui/death/2/weapon_as50.png
@@ -373,6 +376,7 @@
 603 cstrike/gfx/vgui/death/2/weapon_dual_knife.png
 1079 cstrike/gfx/vgui/death/2/weapon_famas_g2.png
 763 cstrike/gfx/vgui/death/2/weapon_f2000.png
+658 cstrike/gfx/vgui/death/2/weapon_m1887.png
 747 cstrike/gfx/vgui/death/2/weapon_fg42.png
 387 cstrike/gfx/vgui/death/2/weapon_g36c.png
 1507 cstrike/gfx/vgui/death/2/weapon_gasbomb.png
@@ -432,6 +436,7 @@
 3198 cstrike/gfx/vgui/death/2/weapon_xm8.png
 4323 cstrike/gfx/vgui/death/2/weapon_zombie_s.png
 342 cstrike/gfx/vgui/death/2/wpsmoke.png
+691 cstrike/gfx/vgui/death/2/weapon_arabian_sword.png
 65575 cstrike/gfx/vgui/death/ann_center.png
 11141 cstrike/gfx/vgui/death/ann_headshot.png
 327 cstrike/gfx/vgui/death/d_870mcs_s.png
@@ -1851,9 +1856,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4275952:ea7b3a19e106ae8daf39cc660b7db381 cstrike/arm64-v8a/libserver.so
-2758024:e6a894af9cd6c57ee85b83b69296a15d cstrike/arm64-v8a/libclient.so
-795360:8f283a28682b7ac5050589a179ed6776 cstrike/arm64-v8a/libmenu.so
-505244:5003680a6b82f3512aeb383ac64db273 cstrike/armeabi-v7a/libmenu.so
-1921164:3e8dcac58414ee07ee51bcdfc658031d cstrike/armeabi-v7a/libclient.so
-2690468:d214d405f75c8968e9d4e0a0a78f79e1 cstrike/armeabi-v7a/libserver.so
+4271920:3bad98dc667d8a3c1e570b7f007edeea cstrike/arm64-v8a/libserver.so
+2741640:9d6a79e17b6508a11153361078632d48 cstrike/arm64-v8a/libclient.so
+811776:26f38d83a77f0677164280c193b85fbc cstrike/arm64-v8a/libmenu.so
+513452:3d8fbebbf90895048e3ff986cba263d5 cstrike/armeabi-v7a/libmenu.so
+1917068:6a6197c39fc91514d3cef951644f108f cstrike/armeabi-v7a/libclient.so
+2694604:029b3e6ea66bbf014aed0577681c6162 cstrike/armeabi-v7a/libserver.so
