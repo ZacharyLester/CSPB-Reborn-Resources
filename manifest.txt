@@ -365,7 +365,6 @@
 507 cstrike/gfx/vgui/death/2/weapon_bow.png
 406 cstrike/gfx/vgui/death/2/weapon_awp.png
 971 cstrike/gfx/vgui/death/2/weapon_brass_knuckle.png
-561 cstrike/gfx/vgui/death/2/weapon_butterfly.png
 837 cstrike/gfx/vgui/death/2/weapon_candy_cane.png
 707 cstrike/gfx/vgui/death/2/weapon_colt_python.png
 577 cstrike/gfx/vgui/death/2/weapon_deagle.png
@@ -469,6 +468,7 @@
 658 cstrike/gfx/vgui/death/d_m1887.png
 340 cstrike/gfx/vgui/death/d_kukri.png
 678 cstrike/gfx/vgui/death/d_sf_shotgun.png
+561 cstrike/gfx/vgui/death/d_butterfly.png
 691 cstrike/gfx/vgui/death/d_arabian_sword.png
 6469 cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503 cstrike/gfx/vgui/fraganim/Frag_Asisst.png
@@ -550,6 +550,7 @@
 7106 cstrike/gfx/vgui/wpn_icon/weapon_m1887.png
 8798 cstrike/gfx/vgui/wpn_icon/weapon_kukri.png
 10415 cstrike/gfx/vgui/wpn_icon/weapon_sf_shotgun.png
+139940 cstrike/gfx/vgui/wpn_icon/weapon_butterfly.png
 8903 cstrike/gfx/vgui/wpn_icon/weapon_arabian_sword.png
 8858 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
 623503 cstrike/gfx/vgui/coin.png
@@ -1861,9 +1862,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4271920:3bad98dc667d8a3c1e570b7f007edeea cstrike/arm64-v8a/libserver.so
-2741640:9d6a79e17b6508a11153361078632d48 cstrike/arm64-v8a/libclient.so
-819968:57f73a5e875488b5fc78b252f116a308 cstrike/arm64-v8a/libmenu.so
-517548:f4d16a8d4f17d98675ab43e3b6148806 cstrike/armeabi-v7a/libmenu.so
-1917068:6a6197c39fc91514d3cef951644f108f cstrike/armeabi-v7a/libclient.so
-2694604:029b3e6ea66bbf014aed0577681c6162 cstrike/armeabi-v7a/libserver.so
+4276136:12f2a29b53dafc68db6ffcb52b7b52c9 cstrike/arm64-v8a/libserver.so
+2741696:9c8b2d3a7ba841dbb2bacdef736f9517 cstrike/arm64-v8a/libclient.so
+811776:0cf92b020d7608432f8ee7c0f554ceb5 cstrike/arm64-v8a/libmenu.so
+517548:ec3130a07d5d4fc8e2ceaf1b32d1bb18 cstrike/armeabi-v7a/libmenu.so
+1921196:48b42a72a0e660f10fcfb8e16e537cd7 cstrike/armeabi-v7a/libclient.so
+2698772:bb3e6ce73829d949422ddcb3313fe825 cstrike/armeabi-v7a/libserver.so
