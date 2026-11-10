@@ -389,7 +389,6 @@
 369 cstrike/gfx/vgui/death/2/weapon_k2.png
 2108 cstrike/gfx/vgui/death/2/weapon_knife.png
 635 cstrike/gfx/vgui/death/2/weapon_keris.png
-714 cstrike/gfx/vgui/death/2/weapon_karambit.png
 520 cstrike/gfx/vgui/death/2/weapon_knifebone.png
 937 cstrike/gfx/vgui/death/2/weapon_kriss_sv.png
 937 cstrike/gfx/vgui/death/2/weapon_kriss_sv_batik.png
@@ -469,7 +468,9 @@
 340 cstrike/gfx/vgui/death/d_kukri.png
 678 cstrike/gfx/vgui/death/d_sf_shotgun.png
 561 cstrike/gfx/vgui/death/d_butterfly.png
+714 cstrike/gfx/vgui/death/d_karambit.png
 691 cstrike/gfx/vgui/death/d_arabian_sword.png
+410 cstrike/gfx/vgui/death/d_gh5007.png
 6469 cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503 cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224 cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -551,8 +552,10 @@
 8798 cstrike/gfx/vgui/wpn_icon/weapon_kukri.png
 10415 cstrike/gfx/vgui/wpn_icon/weapon_sf_shotgun.png
 139940 cstrike/gfx/vgui/wpn_icon/weapon_butterfly.png
+7833 cstrike/gfx/vgui/wpn_icon/weapon_karambit.png
 8903 cstrike/gfx/vgui/wpn_icon/weapon_arabian_sword.png
 8858 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
+7796 cstrike/gfx/vgui/wpn_icon/weapon_gh5007.png
 623503 cstrike/gfx/vgui/coin.png
 63584 cstrike/gfx/vgui/font.png
 2166122 cstrike/gfx/vgui/update/update3.png
@@ -560,10 +563,10 @@
 2116749 cstrike/gfx/vgui/update/update1.png
 2174098 cstrike/gfx/vgui/update/update4.png
 2250767 cstrike/gfx/vgui/update/update5.png
-441180 cstrike/models/arms/v_acid.mdl
+353296 cstrike/models/arms/v_acid.mdl
 173848 cstrike/models/arms/v_acid.wgt
 293128 cstrike/models/arms/v_bella.wgt
-506608 cstrike/models/arms/v_bella.mdl
+385916 cstrike/models/arms/v_bella.mdl
 489796 cstrike/models/arms/v_bellabelly.mdl
 104400 cstrike/models/arms/v_bellabelly.wgt
 485324 cstrike/models/arms/v_bope.mdl
@@ -578,7 +581,7 @@
 106248 cstrike/models/arms/v_hitman.wgt
 519104 cstrike/models/arms/v_invasion.mdl
 141080 cstrike/models/arms/v_invasion.wgt
-415444 cstrike/models/arms/v_keen.mdl
+340364 cstrike/models/arms/v_keen.mdl
 163768 cstrike/models/arms/v_keen.wgt
 339536 cstrike/models/arms/v_leopard.mdl
 80208 cstrike/models/arms/v_leopard.wgt
@@ -590,7 +593,7 @@
 514044 cstrike/models/arms/v_pocong.mdl
 136936 cstrike/models/arms/v_rangda.wgt
 518708 cstrike/models/arms/v_rangda.mdl
-445628 cstrike/models/arms/v_redbull.mdl
+355488 cstrike/models/arms/v_redbull.mdl
 342784 cstrike/models/arms/v_tarantula.mdl
 187960 cstrike/models/arms/v_redbull.wgt
 83792 cstrike/models/arms/v_tarantula.wgt
@@ -742,6 +745,8 @@
 82200 cstrike/models/p_butterfly.mdl
 301608 cstrike/models/p_arabian_sword.mdl
 819292 cstrike/models/v_gh5007.mdl
+1248808 cstrike/models/v_karambit.mdl
+74080 cstrike/models/p_karambit.mdl
 19326 cstrike/sound/PB/SMG/mp7_load.wav
 20780 cstrike/sound/PB/SMG/Change_SMG.wav
 31650 cstrike/sound/PB/SMG/mp7_reload.wav
@@ -1863,9 +1868,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4288424:c846604c18ea6452d3b1d2ef964bada5 cstrike/arm64-v8a/libserver.so
-2762176:54cbc3b01ea3378daea9e4a3904688c3 cstrike/arm64-v8a/libclient.so
-815872:c5b7dfaae5f4eceb6b706a04f33e6dc3 cstrike/arm64-v8a/libmenu.so
-517548:b4c39944bb625054329c3cc74824e85e cstrike/armeabi-v7a/libmenu.so
-1921196:5de8df220c2e4c936ffd6c78f4df49e9 cstrike/armeabi-v7a/libclient.so
-2702868:db9bfb6d53b268be3f9b7d7f4d6c5c06 cstrike/armeabi-v7a/libserver.so
+4313240:496ba77f606104def09f2d5e0436a311 cstrike/arm64-v8a/libserver.so
+2754096:006e2ca46b1ae6c1e25e61127e6efabb cstrike/arm64-v8a/libclient.so
+815872:f8c744d57cabd9f8df5d53e3d9e63f8c cstrike/arm64-v8a/libmenu.so
+517548:dd629302c35c502275177fc1492826e7 cstrike/armeabi-v7a/libmenu.so
+1933548:e1bf2d6fbc1bd572c2449a9c0beb9274 cstrike/armeabi-v7a/libclient.so
+2719396:d3355d67ed9ee37a1a5bafee72afd70b cstrike/armeabi-v7a/libserver.so
