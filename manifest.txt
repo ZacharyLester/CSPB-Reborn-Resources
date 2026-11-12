@@ -473,6 +473,7 @@
 691:3f6ee6d0bd5d647f9770ba8911a51f5d cstrike/gfx/vgui/death/d_arabian_sword.png
 410:1a945502a1db674b14ec69f9801672a7 cstrike/gfx/vgui/death/d_gh5007.png
 335:8545fca162915b1071b963066f050141 cstrike/gfx/vgui/death/d_miniaxe_thrown.png
+154540:10afa7235ef708a9d731867154a7a098 cstrike/gfx/vgui/death/d_deaths_cythe.png
 6469:090a9ddcae089107dc148c79280df7eb cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503:efde0e6ecab620492fcecbb6d5923dab cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224:7ef93fbb71e75d943e1d0f3bdff9874c cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -562,6 +563,7 @@
 8903:b192d4dc65a551301263a66f6080647f cstrike/gfx/vgui/wpn_icon/weapon_arabian_sword.png
 8858:a2185a205eed416498118cc3278afcd7 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
 7796:19d32dac4c21b0bec0cf47c32d22a548 cstrike/gfx/vgui/wpn_icon/weapon_gh5007.png
+13856:87b9d30fbd0d0dc179dc7801de6c5147 cstrike/gfx/vgui/wpn_icon/weapon_deathscythe.png
 5337:83b13ee7787115eb60aa4973dfc9be11 cstrike/gfx/vgui/wpn_icon/weapon_miniaxe.png
 290518:702f9bafab13f0321603c53909767195 cstrike/gfx/vgui/wpn_icon/weapon_xm2010.png
 623503:8a5c2b4a9fdec16c872ff9014aabeebd cstrike/gfx/vgui/coin.png
@@ -1888,9 +1890,9 @@
 48768:0f6241a927f884dba649bf4a7d545966 cstrike/sound/weapons/wm_death_scythe_change.wav
 12145:f9968cae6f20b6c4c53f1df164c47fc2 cstrike/sound/materials.txt
 3232:43ab95a641dec43c0ccdb790b29052c4 cstrike/sound/sentences.txt
-4350344:faba5d31677500213ce675728c5c09dd cstrike/arm64-v8a/libserver.so
-2795168:d8dbd97d01a0fce48fa3e0d4f146b805 cstrike/arm64-v8a/libclient.so
-815872:a8c4763a0bd529d356d4e67fa573a7ca cstrike/arm64-v8a/libmenu.so
-521644:e30d7b10065a2932d0910b9b21714d88 cstrike/armeabi-v7a/libmenu.so
-1945900:58891cc954317b69218c3f0180e4e55b cstrike/armeabi-v7a/libclient.so
-2735924:0b93957de0565219a4c7651e0fe88c6d cstrike/armeabi-v7a/libserver.so
+4338176:b1f77f8ab0d1cb0c4150cbd3dcd840cc cstrike/arm64-v8a/libserver.so
+2791128:d853d0dd77c68cd7109b444b5f628ccc cstrike/arm64-v8a/libclient.so
+832256:a193df71d2b7adc61cadb2d88b006c7b cstrike/arm64-v8a/libmenu.so
+521644:3dd4160f3e18a530c6e619b681eb9d15 cstrike/armeabi-v7a/libmenu.so
+1954124:ac1e826873e357621030cfc00b0a8e9a cstrike/armeabi-v7a/libclient.so
+2744188:a1e947742d403e3ba442c463c21e23c0 cstrike/armeabi-v7a/libserver.so
