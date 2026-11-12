@@ -1619,7 +1619,6 @@
 199708 cstrike/sound/weapons/mk46-1.wav
 34602 cstrike/sound/weapons/movement3.wav
 19558 cstrike/sound/weapons/mp7_ext_clipout.wav
-160042 cstrike/sound/weapons/oa93 sounds.zip
 33500 cstrike/sound/weapons/oa93_boltpull.wav
 32634 cstrike/sound/weapons/oa93_clipin.wav
 18704 cstrike/sound/weapons/oa93_dragon-1.wav

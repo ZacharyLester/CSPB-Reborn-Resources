@@ -11,6 +11,14 @@ do
 	echo "$(stat -c %s "$f"):$(md5sum "$f" | cut -d' ' -f1) $f" >> manifest.txt
 done
 
+# case-insensitive duplicates break on Android storage
+dups=$(cut -d' ' -f2- manifest.txt | tr 'A-Z' 'a-z' | sort | uniq -d)
+if [ -n "$dups" ]; then
+	echo "case duplicates, fix these first:"
+	echo "$dups"
+	exit 1
+fi
+
 git add -A
 git commit -m "update resources"
 git push
