@@ -506,6 +506,10 @@
 8401 cstrike/gfx/vgui/frame/frame.png
 63701 cstrike/gfx/vgui/item/bpoint.png
 347610 cstrike/gfx/vgui/item/rename.png
+57530 cstrike/gfx/vgui/item/qc.png
+58286 cstrike/gfx/vgui/item/qr.png
+89843 cstrike/gfx/vgui/item/qrespawn.png
+63589 cstrike/gfx/vgui/item/megahp.png
 7242 cstrike/gfx/vgui/kill_message/exp_digits.png
 703131 cstrike/gfx/vgui/kill_message/kill_message1.png
 869868 cstrike/gfx/vgui/kill_message/kill_message.png
@@ -752,8 +756,8 @@
 1187824 cstrike/models/v_kar98k.mdl
 1345620 cstrike/models/v_xm2010.mdl
 578212 cstrike/models/w_xm2010.mdl
-585272 cstrike/models/b_xm2010.mdl
-576892 cstrike/models/p_xm2010.mdl
+585240 cstrike/models/b_xm2010.mdl
+576844 cstrike/models/p_xm2010.mdl
 19326 cstrike/sound/PB/SMG/mp7_load.wav
 20780 cstrike/sound/PB/SMG/Change_SMG.wav
 31650 cstrike/sound/PB/SMG/mp7_reload.wav
@@ -1875,9 +1879,9 @@
 45186 cstrike/sound/weapons/zoom_generic_out.wav
 12145 cstrike/sound/materials.txt
 3232 cstrike/sound/sentences.txt
-4317456:9439eb8df1740b26f550e8842546fa60 cstrike/arm64-v8a/libserver.so
-2778728:6dac4cc1271c1c3f4e1315675830d44e cstrike/arm64-v8a/libclient.so
-815872:c7a33051b6802655e437a1f4c9619194 cstrike/arm64-v8a/libmenu.so
-517548:5504522dbf64ad9742af9ed54c3ab0d3 cstrike/armeabi-v7a/libmenu.so
-1937676:2c1a43c610eb17ae77fa907f50908d90 cstrike/armeabi-v7a/libclient.so
-2723564:c9e38862b61e4b59dc43681da434e232 cstrike/armeabi-v7a/libserver.so
+4337936:a5c3e048655639755b8f31cb51bd23f5 cstrike/arm64-v8a/libserver.so
+2782824:f612edf615d3bb60d668293048d2ff1e cstrike/arm64-v8a/libclient.so
+815872:e8afb6e87447f6afc52bd7e065afbbee cstrike/arm64-v8a/libmenu.so
+521644:bde602db0bc319c85eb82716cec482d5 cstrike/armeabi-v7a/libmenu.so
+1941772:0b9f16ff4ee0f5de439c2b3ca1249eaf cstrike/armeabi-v7a/libclient.so
+2727660:00727f4eb58b32ab41e62f6cee509f97 cstrike/armeabi-v7a/libserver.so
