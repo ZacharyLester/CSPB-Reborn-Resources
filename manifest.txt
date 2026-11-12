@@ -404,7 +404,6 @@
 910:1ced71c6fc26ad738fd819ea2f6b988c cstrike/gfx/vgui/death/2/weapon_m82a1.png
 454:14166d5817c4f79273c28b6a5250ba7d cstrike/gfx/vgui/death/2/weapon_m4a1_s.png
 956:bff6c5060a607e00823b0f3e1d5775fc cstrike/gfx/vgui/death/2/weapon_mp5k.png
-335:8545fca162915b1071b963066f050141 cstrike/gfx/vgui/death/2/weapon_mini_axe.png
 829:1a867a83ec3aaf687ea55ae23d72e560 cstrike/gfx/vgui/death/2/weapon_mp9.png
 618:2405edbc4391c9284186cd0f58c4e9e8 cstrike/gfx/vgui/death/2/weapon_p90.png
 3035:ab5b1ddebdc721ca06d7eeea7e014fdd cstrike/gfx/vgui/death/2/weapon_msbs.png
@@ -468,10 +467,12 @@
 340:1552ab5f5cd74eb23365c345a95e8912 cstrike/gfx/vgui/death/d_kukri.png
 678:a5eedf3e2ca1e341dc9963fe8fdb826c cstrike/gfx/vgui/death/d_sf_shotgun.png
 63215:378f21d9ad883890bff67fc33fb00aa0 cstrike/gfx/vgui/death/d_xm2010.png
+335:8545fca162915b1071b963066f050141 cstrike/gfx/vgui/death/d_miniaxe.png
 561:6c73847581a728c338f5388d5a24df6a cstrike/gfx/vgui/death/d_butterfly.png
 714:1ac9b3d4ca74fc06dfd6423c58d40991 cstrike/gfx/vgui/death/d_karambit.png
 691:3f6ee6d0bd5d647f9770ba8911a51f5d cstrike/gfx/vgui/death/d_arabian_sword.png
 410:1a945502a1db674b14ec69f9801672a7 cstrike/gfx/vgui/death/d_gh5007.png
+335:8545fca162915b1071b963066f050141 cstrike/gfx/vgui/death/d_miniaxe_thrown.png
 6469:090a9ddcae089107dc148c79280df7eb cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503:efde0e6ecab620492fcecbb6d5923dab cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224:7ef93fbb71e75d943e1d0f3bdff9874c cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
@@ -561,6 +562,7 @@
 8903:b192d4dc65a551301263a66f6080647f cstrike/gfx/vgui/wpn_icon/weapon_arabian_sword.png
 8858:a2185a205eed416498118cc3278afcd7 cstrike/gfx/vgui/wpn_icon/weapon_fangblade.png
 7796:19d32dac4c21b0bec0cf47c32d22a548 cstrike/gfx/vgui/wpn_icon/weapon_gh5007.png
+5337:83b13ee7787115eb60aa4973dfc9be11 cstrike/gfx/vgui/wpn_icon/weapon_miniaxe.png
 290518:702f9bafab13f0321603c53909767195 cstrike/gfx/vgui/wpn_icon/weapon_xm2010.png
 623503:8a5c2b4a9fdec16c872ff9014aabeebd cstrike/gfx/vgui/coin.png
 63584:f7937f0de6276d0fde7d23b3d7d8c111 cstrike/gfx/vgui/font.png
@@ -758,6 +760,10 @@
 578212:914961dd14d730d046da40006e13f409 cstrike/models/w_xm2010.mdl
 585240:6e711878e963863838dc579960fe973d cstrike/models/b_xm2010.mdl
 576844:d620dc64c1ec6998558244b2bb497ea0 cstrike/models/p_xm2010.mdl
+1008604:354ad1a216a474cde08522d409a69ca4 cstrike/models/v_deathscythe.mdl
+946000:e2139b63a1aa81fb886b796855eb3927 cstrike/models/v_miniaxe.mdl
+335672:945ad304e6fe02db53f3ea1411fb507c cstrike/models/p_deathscythe.mdl
+85160:939c4e0b8ec6744a35c815755ab3b5bb cstrike/models/w_miniaxe.mdl
 19326:a02e185163e0515ac447081557ca6ac2 cstrike/sound/PB/SMG/mp7_load.wav
 20780:ab53ddea152245630c3570a814c34133 cstrike/sound/PB/SMG/Change_SMG.wav
 31650:df141b9d317112973163700f79b69132 cstrike/sound/PB/SMG/mp7_reload.wav
@@ -1274,6 +1280,7 @@
 47732:2aa27290df190c3290e27ea5caf3ea50 cstrike/sound/weapons/WM_VZ52_Draw.wav
 23392:a553fa35f4c9299377758fdbce6caa19 cstrike/sound/weapons/WM_Watergun2016_Reload.wav
 56104:0cc562d28440adbaf8c273f4c3df1ccb cstrike/sound/weapons/WM_XM2010_Load.wav
+32908:02c9a283ff1b58629db5a85f5e84bf82 cstrike/sound/weapons/wm_death_scythe_move.wav
 21252:c249203614c7a37c5084bcf8f19d580a cstrike/sound/weapons/WM_XM2010_Reload.wav
 116760:25f676fafa301d467ef226285cc12d3b cstrike/sound/weapons/WM_XM2010_Zoom_Fire.wav
 38158:86f960dda96786b396e6533f906aa06f cstrike/sound/weapons/WM_XM8_LOAD.wav
@@ -1552,6 +1559,7 @@
 35098:814be3a7c97179c7fb8f745712e7b1d8 cstrike/sound/weapons/watergun-1.wav
 30060:0f529f0159608f73653b49467cf03849 cstrike/sound/weapons/zoom_generic_in.wav
 48172:86210293480fa1e5a91c6f0d015cde6e cstrike/sound/weapons/zoom_sniper_in.wav
+79806:0a2167f8d3ef810ce4576677155d9b5f cstrike/sound/weapons/wm_death_scythe_attack_secondary.wav
 26318:a76369ed51bae62bf3deef09522070d5 cstrike/sound/weapons/combat_machete_hit_wall_stab_2.wav
 24628:3eeedc17fd56d40d539d264a794a5b30 cstrike/sound/weapons/dd-eagle_D_boltpull.wav
 72396:05658bafa8eb845364f8e2864b004a39 cstrike/sound/weapons/dd-eagle_D_shoot2.wav
@@ -1774,6 +1782,7 @@
 42912:a6f17e8f985734c83164394ee9218a50 cstrike/sound/weapons/zombie_slayer-1.wav
 30060:0f529f0159608f73653b49467cf03849 cstrike/sound/weapons/zoom.wav
 54106:22261c50bcd1d9222577abd2979daf6f cstrike/sound/weapons/zoom_sniper_out.wav
+45882:39f549d58606811bbbca732b37618897 cstrike/sound/weapons/wm_death_scythe_attack.wav
 21806:3c9efccbe87fdc8279d00f23d0f3e88c cstrike/sound/weapons/combat_machete_hit_slash_1.wav
 35236:6a160dea0ba0cf151f8693ca3a23ced9 cstrike/sound/weapons/combat_machete_stab.wav
 33902:c3f02eee45ed0fbbea9aa13b06ec9365 cstrike/sound/weapons/dmus-1.wav
@@ -1876,11 +1885,12 @@
 72452:57c83d997d78f3d8f64a0707f70be6cb cstrike/sound/weapons/usp_unsil-1.wav
 111870:05b92e6f237fd9aa306971ac831b2d89 cstrike/sound/weapons/xm8-1.wav
 45186:2196366621d878c24c475765a0e26dbc cstrike/sound/weapons/zoom_generic_out.wav
+48768:0f6241a927f884dba649bf4a7d545966 cstrike/sound/weapons/wm_death_scythe_change.wav
 12145:f9968cae6f20b6c4c53f1df164c47fc2 cstrike/sound/materials.txt
 3232:43ab95a641dec43c0ccdb790b29052c4 cstrike/sound/sentences.txt
-4342032:732b58506b4c532edfd3e0cf5783074c cstrike/arm64-v8a/libserver.so
-2774632:88a6a9787fd8eb967039b967d6b2bcf3 cstrike/arm64-v8a/libclient.so
-815872:e8afb6e87447f6afc52bd7e065afbbee cstrike/arm64-v8a/libmenu.so
-521644:bde602db0bc319c85eb82716cec482d5 cstrike/armeabi-v7a/libmenu.so
-1941772:ee17fe85a04c67c9518fcd13f07101cd cstrike/armeabi-v7a/libclient.so
-2727660:823269c5a952d047487367724701aa40 cstrike/armeabi-v7a/libserver.so
+4350344:faba5d31677500213ce675728c5c09dd cstrike/arm64-v8a/libserver.so
+2795168:d8dbd97d01a0fce48fa3e0d4f146b805 cstrike/arm64-v8a/libclient.so
+815872:a8c4763a0bd529d356d4e67fa573a7ca cstrike/arm64-v8a/libmenu.so
+521644:e30d7b10065a2932d0910b9b21714d88 cstrike/armeabi-v7a/libmenu.so
+1945900:58891cc954317b69218c3f0180e4e55b cstrike/armeabi-v7a/libclient.so
+2735924:0b93957de0565219a4c7651e0fe88c6d cstrike/armeabi-v7a/libserver.so
