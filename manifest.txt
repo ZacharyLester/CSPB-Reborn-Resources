@@ -472,8 +472,8 @@
 714:1ac9b3d4ca74fc06dfd6423c58d40991 cstrike/gfx/vgui/death/d_karambit.png
 691:3f6ee6d0bd5d647f9770ba8911a51f5d cstrike/gfx/vgui/death/d_arabian_sword.png
 410:1a945502a1db674b14ec69f9801672a7 cstrike/gfx/vgui/death/d_gh5007.png
+154540:10afa7235ef708a9d731867154a7a098 cstrike/gfx/vgui/death/d_deaths_scythe.png
 335:8545fca162915b1071b963066f050141 cstrike/gfx/vgui/death/d_miniaxe_thrown.png
-154540:10afa7235ef708a9d731867154a7a098 cstrike/gfx/vgui/death/d_deaths_cythe.png
 6469:090a9ddcae089107dc148c79280df7eb cstrike/gfx/vgui/fraganim/Frag_Assasin.png
 7503:efde0e6ecab620492fcecbb6d5923dab cstrike/gfx/vgui/fraganim/Frag_Asisst.png
 5224:7ef93fbb71e75d943e1d0f3bdff9874c cstrike/gfx/vgui/fraganim/Frag_Blue_1.png
