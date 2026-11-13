@@ -750,11 +750,11 @@
 85160:939c4e0b8ec6744a35c815755ab3b5bb cstrike/models/w_miniaxe.mdl
 12145:f9968cae6f20b6c4c53f1df164c47fc2 cstrike/sound/materials.txt
 3232:43ab95a641dec43c0ccdb790b29052c4 cstrike/sound/sentences.txt
-4366864:600e6f36fab56221b61f0fdea1657421 cstrike/arm64-v8a/libserver.so
-2782936:d3cd0c975cddf8261c39a6025e79d86c cstrike/arm64-v8a/libclient.so
+4362768:566941e40281423cc64b1897405b04c9 cstrike/arm64-v8a/libserver.so
+2811608:ad884b1cd0a271b5472c3b72a7b2489a cstrike/arm64-v8a/libclient.so
 819976:45d5fe1a40ec34bfed07b3a7eda0b6d1 cstrike/arm64-v8a/libmenu.so
 521648:64eedd2b0fbc6984471006d14794c3d2 cstrike/armeabi-v7a/libmenu.so
-1954124:d722be140b6f5037ddeadec118ac5ad7 cstrike/armeabi-v7a/libclient.so
-2752388:b2b4b062204f0492b9383cad6ac8a28c cstrike/armeabi-v7a/libserver.so
+1954124:009044de56a9e45d6d9c643a38768a6b cstrike/armeabi-v7a/libclient.so
+2752388:0eaad17ea67180979ccaa2267155fa9b cstrike/armeabi-v7a/libserver.so
 58528446:b57d5bb011b5efadae96f39119daabc8 cstrike/sprites.pak
 62738300:5b5e219eba876d6e6ff7c21db9d4559c cstrike/sounds.pak
