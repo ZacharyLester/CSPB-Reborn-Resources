@@ -2,8 +2,11 @@
 : > manifest.txt
 
 # every file: size:md5
-find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/sound \
-	cstrike/arm64-v8a cstrike/armeabi-v7a -type f | while IFS= read -r f
+{
+	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/sound \
+		cstrike/arm64-v8a cstrike/armeabi-v7a -type f
+	find cstrike -maxdepth 1 -type f -name '*.pak'
+} | while IFS= read -r f
 do
 	h=$(md5sum "$f")
 	echo "$(stat -c %s "$f"):${h%% *} $f" >> manifest.txt

@@ -756,3 +756,5 @@
 521648:64eedd2b0fbc6984471006d14794c3d2 cstrike/armeabi-v7a/libmenu.so
 1954124:d722be140b6f5037ddeadec118ac5ad7 cstrike/armeabi-v7a/libclient.so
 2752388:b2b4b062204f0492b9383cad6ac8a28c cstrike/armeabi-v7a/libserver.so
+58528446:b57d5bb011b5efadae96f39119daabc8 cstrike/sprites.pak
+62738300:5b5e219eba876d6e6ff7c21db9d4559c cstrike/sounds.pak
