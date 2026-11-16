@@ -411,12 +411,12 @@
 32908:02c9a283ff1b58629db5a85f5e84bf82 cstrike/sound/weapons/wm_death_scythe_move.wav
 12145:f9968cae6f20b6c4c53f1df164c47fc2 cstrike/sound/materials.txt
 3232:43ab95a641dec43c0ccdb790b29052c4 cstrike/sound/sentences.txt
-4370960:ecf93196ba1fc591346e48e58ee672d6 cstrike/arm64-v8a/libserver.so
-819976:86d173787a7a1c1ac6e1d1cecf51aede cstrike/arm64-v8a/libmenu.so
+4375056:b7c66508b51db40f60f47ec273bda0c6 cstrike/arm64-v8a/libserver.so
+824072:8b93e4174d8d6f22070a0cfd91cc25d2 cstrike/arm64-v8a/libmenu.so
 2791128:55bcb7a18b0ec6bd430bcea568967c3e cstrike/arm64-v8a/libclient.so
 1954124:65c9a058befe5b4ce8ba305856f66141 cstrike/armeabi-v7a/libclient.so
-521648:e1edf5916552118ec095e486445b3bef cstrike/armeabi-v7a/libmenu.so
-2752396:2aa569c2047bdedddce77a51e9426b87 cstrike/armeabi-v7a/libserver.so
+521648:d020568dd184575c1242c9c2e336b4f7 cstrike/armeabi-v7a/libmenu.so
+2752396:259e1b20d56d25486b583eae2ec67b33 cstrike/armeabi-v7a/libserver.so
 58528446:b57d5bb011b5efadae96f39119daabc8 cstrike/sprites.pak
 62738300:5b5e219eba876d6e6ff7c21db9d4559c cstrike/sounds.pak
 14191727:c11ec5386cc1aacc13b47927d385caec cstrike/env.pak
