@@ -63,7 +63,9 @@ clientdata_t none
 
 	DEFINE_DELTA( fuser1, DT_FLOAT, 9, 1.0 ),
 	DEFINE_DELTA( fuser2, DT_FLOAT, 14, 1.0 ),
-	DEFINE_DELTA( fuser3, DT_FLOAT, 10, 1.0 )
+	DEFINE_DELTA( fuser3, DT_FLOAT, 10, 1.0 ),
+	DEFINE_DELTA( holdleft, DT_INTEGER, 1, 1.0 ),
+	DEFINE_DELTA( weaponskin, DT_INTEGER, 1, 1.0 )
 }
 
 entity_state_t gamedll Entity_Encode
@@ -179,7 +181,9 @@ entity_state_player_t gamedll Player_Encode
 	DEFINE_DELTA( spectator, DT_INTEGER, 1, 1.0 ),
 
 	DEFINE_DELTA( iuser3, DT_INTEGER, 8, 1.0 ),
-	DEFINE_DELTA( iuser4, DT_INTEGER, 2, 1.0 )
+	DEFINE_DELTA( iuser4, DT_INTEGER, 2, 1.0 ),
+	DEFINE_DELTA( holdleft, DT_INTEGER, 1, 1.0 ),
+	DEFINE_DELTA( weaponskin, DT_INTEGER, 1, 1.0 )
 }
 
 custom_entity_state_t gamedll Custom_Encode
