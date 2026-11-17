@@ -1,3 +1,4 @@
+73:048676515fb6cd63b3e781fef3d6512f cstrike/downloaded/apkreq.txt
 3686454:7bac355b60f5b6f3c6663202a9a60fb1 cstrike/downloaded/levelshots/pb_burning_hall_16x9.bmp
 3686454:978f7cf3192c98d27d8208de396e0280 cstrike/downloaded/levelshots/pb_mstation_16x9.bmp
 3686454:49a29961c46709f33ac5fa0135cbca20 cstrike/downloaded/levelshots/pb_luxville_16x9.bmp
