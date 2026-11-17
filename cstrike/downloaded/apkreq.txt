@@ -1,1 +1,1 @@
-6       https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
+5      https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
