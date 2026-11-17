@@ -266,8 +266,8 @@
 8299:48565b38586f3f1b3767c95f8e215317 cstrike/gfx/vgui/wpn_icon/weapon_ssg69.png
 290518:702f9bafab13f0321603c53909767195 cstrike/gfx/vgui/wpn_icon/weapon_xm2010.png
 278036:9ec6f0ac13c6f7b3db464ba07396c258 cstrike/models/PG-150.mdl
-1610952:9e416eecd9777cc91be1ad02f07ad94c cstrike/models/animpack/female.mdl
-1606912:cb7ae40bc6aacbefef87cf0174ff0015 cstrike/models/animpack/male.mdl
+1835096:0917b47a4ee373dc6b5953571a6f2d92 cstrike/models/animpack/female.mdl
+1600940:9148cb2a03b626ce3e504791d77c0212 cstrike/models/animpack/male.mdl
 16092:f14b062b101904f583e08c1566b54c62 cstrike/models/arcticorange.mdl
 153804:650ab048d3745a95c0eeb27be7e73ce4 cstrike/models/arcticorangeT.mdl
 354772:72bafe2203d7cd1a0b2a7dcf13744788 cstrike/models/arms/v_acid.mdl
