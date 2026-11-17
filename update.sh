@@ -1,7 +1,7 @@
 #!/bin/sh
 # 0 = don't force anything
 # set to the CS_APK_BUILD of the newest APK only when xash.so changed
-APK_BUILD=2
+APK_BUILD=3
 APK_URL="https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest"
 
 if [ "$APK_BUILD" -gt 0 ]; then
