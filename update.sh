@@ -1,9 +1,20 @@
 #!/bin/sh
+# 0 = don't force anything
+# set to the CS_APK_BUILD of the newest APK only when xash.so changed
+APK_BUILD=0
+APK_URL="https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest"
+
+if [ "$APK_BUILD" -gt 0 ]; then
+	echo "$APK_BUILD $APK_URL" > cstrike/downloaded/apkreq.txt
+else
+	rm -f cstrike/downloaded/apkreq.txt
+fi
+
 : > manifest.txt
 
 # every file: size:md5
 {
-	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/sound \
+	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/sound cstrike/sprites \
 		cstrike/arm64-v8a cstrike/armeabi-v7a -type f
 	find cstrike -maxdepth 1 -type f -name '*.pak'
 } | while IFS= read -r f
