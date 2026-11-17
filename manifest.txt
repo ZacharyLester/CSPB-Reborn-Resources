@@ -1,10 +1,10 @@
 #apk 4 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
-2799320:983693da828eaa9cc258a5b1cf21da83 cstrike/arm64-v8a/libclient.so
+2799320:4df37f7301d5e4f7ec0e23f35627cf8e cstrike/arm64-v8a/libclient.so
 824080:61ffce3149602e5f337a7f5d7614ddde cstrike/arm64-v8a/libmenu.so
-4330000:9d2a7846b1371b5bb5c72931cbac890b cstrike/arm64-v8a/libserver.so
-1954124:ac2571e448d9030f6b133604a73f801f cstrike/armeabi-v7a/libclient.so
+4330000:04c12453ee3b5308ddf07b13d47191dd cstrike/arm64-v8a/libserver.so
+1954124:cefe06c96e33a6b66978dd7f60a094e5 cstrike/armeabi-v7a/libclient.so
 521652:238c8d42db9709652902fef816e28a65 cstrike/armeabi-v7a/libmenu.so
-2719628:45178364d1838b6700c6795735f5eb40 cstrike/armeabi-v7a/libserver.so
+2719628:eb6830c528f7b2145870d459442fe799 cstrike/armeabi-v7a/libserver.so
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
 77:f5cacb7f95eccd7b107361c1324f1b40 cstrike/downloaded/apkreq.txt
 129636:a44390e6b4823cdf41c8b10b7aa6df06 cstrike/downloaded/cached.wad
