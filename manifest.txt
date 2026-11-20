@@ -1,12 +1,12 @@
-#apk 7 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
-2799320:e5c20c85b36f154a4b6f84f32169e200 cstrike/arm64-v8a/libclient.so
-824080:751638eb66e1eaf2f825c2f8ad98d972 cstrike/arm64-v8a/libmenu.so
-4321808:47e86f1a8f46869c3441e72faabca362 cstrike/arm64-v8a/libserver.so
-1954124:56975c688b94b0dd55c6a4e32631368b cstrike/armeabi-v7a/libclient.so
-521652:5b42f2fb0be3b55ec6e792ab18fa7a17 cstrike/armeabi-v7a/libmenu.so
-2719628:c6fb37fc35199d926570d901bcfbfab0 cstrike/armeabi-v7a/libserver.so
+#apk 8 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
+2799320:9647e32900d75fbbff18b7bf2ed07cc3 cstrike/arm64-v8a/libclient.so
+832272:cad6d6e4f34db7f962fca4d0451cc6ba cstrike/arm64-v8a/libmenu.so
+4313600:edef0d6fcef1dae9b6c7bdfb4103287a cstrike/arm64-v8a/libserver.so
+1954124:fa709a84be3b3dd6ed6ecf572baa03eb cstrike/armeabi-v7a/libclient.so
+521652:bab5034ee0007c8b814321dc4d50981b cstrike/armeabi-v7a/libmenu.so
+2719520:9095c9ef728c81158fdd65011aee4f7e cstrike/armeabi-v7a/libserver.so
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
-80:79eff8cb0c79aa21243f9f500636cdf3 cstrike/downloaded/apkreq.txt
+81:63b8ad905aff1841789b71281282cd74 cstrike/downloaded/apkreq.txt
 129636:a44390e6b4823cdf41c8b10b7aa6df06 cstrike/downloaded/cached.wad
 517360:f6dbce04381125ab485ce5e5fcf9b8e1 cstrike/downloaded/cs_assault.wad
 1055884:0e2976b3a03627dd2d199575b13a946f cstrike/downloaded/cs_dust.wad
@@ -267,7 +267,8 @@
 290518:702f9bafab13f0321603c53909767195 cstrike/gfx/vgui/wpn_icon/weapon_xm2010.png
 278036:9ec6f0ac13c6f7b3db464ba07396c258 cstrike/models/PG-150.mdl
 1835096:0917b47a4ee373dc6b5953571a6f2d92 cstrike/models/animpack/female.mdl
-1600940:9148cb2a03b626ce3e504791d77c0212 cstrike/models/animpack/male.mdl
+1822532:4e6d0c4a5ea520f3a543aac481397fdb cstrike/models/animpack/male.mdl
+515360:9477889fb1d09d13f6cb193c67ce1ddf cstrike/models/animpack/male_lobby.mdl
 16092:f14b062b101904f583e08c1566b54c62 cstrike/models/arcticorange.mdl
 153804:650ab048d3745a95c0eeb27be7e73ce4 cstrike/models/arcticorangeT.mdl
 354772:72bafe2203d7cd1a0b2a7dcf13744788 cstrike/models/arms/v_acid.mdl
@@ -315,14 +316,22 @@
 67004:2a8987c915de2256ee39237f0d7d8d26 cstrike/models/conveyor3.mdl
 66884:60b09b6e43c833e35c0a266425520e8e cstrike/models/conveyor_turn.mdl
 85240:57951affcb06d25209547ea280a15197 cstrike/models/dummyguerilla.mdl
+85384:f804f43e02b9fb7a0ee2970385eaa428 cstrike/models/equip/helmet_acid.mdl
+11256:3162a1d490d64e713e451ed8cad812bd cstrike/models/equip/helmet_bella.mdl
+74740:f9da2b113925b61c6ecd6890d6a0175f cstrike/models/equip/helmet_chou.mdl
+73792:9759568bff7444ecf77e6bd8a467bf45 cstrike/models/equip/helmet_dfox.mdl
+73288:0592781d7e5eb409dde989f0857794ab cstrike/models/equip/helmet_hide.mdl
+85580:dc8a528040f2d1935b10f4ea5f4403fd cstrike/models/equip/helmet_keen.mdl
+89652:33dbc8a8a62d86d9c3f7c157b4b71149 cstrike/models/equip/helmet_leopard.mdl
+73892:a939d72f1c8faf93d269ec56fa42608e cstrike/models/equip/helmet_redbull.mdl
+75740:e131b80f8c89cc6406b2fc8b65bb6183 cstrike/models/equip/helmet_tarantula.mdl
+139032:95c07e8883cb44ae168d508c957f72aa cstrike/models/equip/helmet_viper.mdl
 5288:319f93b840bc56939a267f6a37510db4 cstrike/models/feather.mdl
 22040:29c6a4bca8d757a21e4d974fe9ca460e cstrike/models/fern.mdl
 23352:fadde63f206de9a50378dcaf044bca09 cstrike/models/grass.mdl
 17214:a3736fc24792ff7e85569854d68ad7c3 cstrike/models/grass_01.spr
 858340:2de9adfa7315206b84871f6d1bb827f7 cstrike/models/guerilla.mdl
 23032:adbace2803f3fd0786a6a10f5a924d6f cstrike/models/head.mdl
-1348348:c49cb6ef34a8756557087fd1bb67b539 cstrike/models/headgears/w_berret.mdl
-720156:4deb855911853df5a78b540d3d4c56c9 cstrike/models/headgears/w_default.mdl
 434908:99a299c01da417890af3134fc58c3f09 cstrike/models/hostage.mdl
 64052:11340ba128d30c96a2aa6ad01bbcf7e4 cstrike/models/hostage01.mdl
 64408:8bbb5eba1766a19a7a14b142e502f7e2 cstrike/models/hostage02.mdl
@@ -396,7 +405,7 @@
 420812:e11e28cf04054a6729776ef03996bcdb cstrike/models/v_k5.mdl
 1187824:cd4a86267e0a8c607370057d33aebc98 cstrike/models/v_kar98k.mdl
 725636:535a86ae1ffb6b096cd345a2db308a85 cstrike/models/v_karambit.mdl
-959256:286711f88efa9a5a19e1310e191501da cstrike/models/v_kriss_sv.mdl
+1095360:fa64f6147479a72fe70a837043cbf28f cstrike/models/v_kriss_sv.mdl
 280568:afce4631c17a50d204fc693c949fd2e9 cstrike/models/v_kukri.mdl
 496316:bcde086e38886f6e57004be152eb727f cstrike/models/v_m1887.mdl
 398228:ade6696a5a8b85a0ce0756a257733d17 cstrike/models/v_m7.mdl
