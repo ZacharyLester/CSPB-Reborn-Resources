@@ -1,0 +1,13 @@
+//overview description file for BurningHall.bsp by Rahmat Efendi
+global
+{ 
+	ZOOM		1.75
+	ORIGIN		0.00	0.00	128.00
+	ROTATED		1
+}
+
+layer
+{
+	IMAGE	"overviews/pb_burning_hall.tga"
+	HEIGHT	753.00
+}

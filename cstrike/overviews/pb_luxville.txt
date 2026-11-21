@@ -1,0 +1,14 @@
+// overview description file for pb_luxville.bsp
+
+global 
+{
+	ZOOM	1.50
+	ORIGIN	239	1084	142
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/pb_luxville.tga"
+	HEIGHT	414
+}
