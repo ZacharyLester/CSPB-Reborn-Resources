@@ -1,7 +1,7 @@
 #!/bin/sh
 # 0 = don't force anything
 # set to the CS_APK_BUILD of the newest APK only when xash.so changed
-APK_BUILD=10
+APK_BUILD=11
 APK_URL="https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest"
 
 mkdir -p cstrike/downloaded
@@ -30,7 +30,7 @@ fi
 {
 	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/resource/ui \
 		cstrike/sound cstrike/sprites cstrike/arm64-v8a cstrike/armeabi-v7a -type f 2>/dev/null
-	find cstrike -maxdepth 1 -type f -name '*.pak'
+	find cstrike -maxdepth 1 -type f \( -name '*.pak' -o -name 'delta.lst' \)
 } | sort | while IFS= read -r f
 do
 	h=$(md5sum "$f")
