@@ -1,9 +1,9 @@
 #apk 9 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
 2836224:18b3b128373e3b17846403ed5ce708e3 cstrike/arm64-v8a/libclient.so
-951880:6f23cdd428dfead1cbc848980e0439e5 cstrike/arm64-v8a/libmenu.so
+947784:a04337ce911401d1e73f9f89e11967a8 cstrike/arm64-v8a/libmenu.so
 4317696:1f7627ee4acf7f8841987432c3b719f5 cstrike/arm64-v8a/libserver.so
 1982832:f6ad7dad8830a294bd808c76a20347ab cstrike/armeabi-v7a/libclient.so
-608080:fd3f47da756fd5477fd2d41cf5a64a54 cstrike/armeabi-v7a/libmenu.so
+608080:6553ea5323520659f84b81cfa9091eef cstrike/armeabi-v7a/libmenu.so
 2719520:c76299016ff65b7f00a930c0d823c132 cstrike/armeabi-v7a/libserver.so
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
 82:db2bc009b4777f23764037e89a0be1d8 cstrike/downloaded/apkreq.txt
@@ -563,6 +563,19 @@
 317776:2c70aa039f543bf016ddb2462a6c2e44 cstrike/models/w_special_1.mdl
 7752:2531f37a0ad9ff16641bd6c972dfd05d cstrike/models/w_thighpack.mdl
 29912:89bdee6f70516564b2a5e89317b57e30 cstrike/models/winebottle.mdl
+1741:f02498ec6e2a2ee024f2ef7df65cdeef cstrike/resource/ui/audio.xml
+1517:47ca86c628ee4b3d261ecd9872a084be cstrike/resource/ui/bottombar.xml
+1039:ca303699059dbdad5d5316331d0c59d2 cstrike/resource/ui/inputdevices.xml
+706:571a2a1e1545ef1d6bd8d250e04988a9 cstrike/resource/ui/inventory.xml
+4629:241f73deb23054700b439530a26109a7 cstrike/resource/ui/lobby.xml
+5366:b776fa7985b7d56b5e35bfbf6bc4940b cstrike/resource/ui/main.xml
+12103:17e2a2cfcd205e2549f47ea731506044 cstrike/resource/ui/options.xml
+1355:fd37b9192699b6112e92cee5223401e7 cstrike/resource/ui/pause.xml
+183:aa339b24e87c439c00108ec7e2bbe197 cstrike/resource/ui/shop.xml
+5785:5911a83a83cf5ed15ab36abf9167987a cstrike/resource/ui/store-common.xml
+569:ac49bf4b961bd821d7308bfe680b8814 cstrike/resource/ui/theme.xml
+438:6bd0ff20883af5dd042831b3e1343649 cstrike/resource/ui/touch.xml
+515:af18c2742c076bf7c8af30cf3289a6c9 cstrike/resource/ui/video.xml
 12145:f9968cae6f20b6c4c53f1df164c47fc2 cstrike/sound/materials.txt
 3232:43ab95a641dec43c0ccdb790b29052c4 cstrike/sound/sentences.txt
 45882:39f549d58606811bbbca732b37618897 cstrike/sound/weapons/wm_death_scythe_attack.wav

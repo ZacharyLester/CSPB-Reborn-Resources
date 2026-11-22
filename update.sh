@@ -28,8 +28,8 @@ if [ "$APK_BUILD" -gt 0 ]; then
 fi
 
 {
-	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/sound cstrike/sprites \
-		cstrike/arm64-v8a cstrike/armeabi-v7a -type f 2>/dev/null
+	find cstrike/downloaded cstrike/gfx/vgui cstrike/models cstrike/resource/ui \
+		cstrike/sound cstrike/sprites cstrike/arm64-v8a cstrike/armeabi-v7a -type f 2>/dev/null
 	find cstrike -maxdepth 1 -type f -name '*.pak'
 } | sort | while IFS= read -r f
 do

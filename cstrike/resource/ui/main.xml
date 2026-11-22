@@ -26,9 +26,10 @@
 
 		<!-- left tabs -->
 		<tile align="center" text="Mission Card" group="left" selected="true" x="14" y="48" w="104" h="20" charsize="small"/>
+		<tile align="center" text="Quest" group="left" x="120" y="48" w="80" h="20" charsize="small"/>
 
 		<!-- room list panel -->
-		<panel x="-796" y="50" w="780" h="656">
+		<panel tag="rooms" x="-796" y="50" w="780" h="656">
 			<rect x="0" y="0" w="780" h="656" fill="${c-panel}" border="${c-line}"/>
 			<label text="001   Public Server 01" x="14" y="10" w="300" h="20" align="left" charsize="small" color="${c-text}"/>
 
@@ -63,12 +64,12 @@
 		<rect x="0" y="-52" w="-1" h="52" fill="${c-top}"/>
 
 		<rect x="10" y="-46" w="400" h="40" fill="${c-panel}" border="${c-line}"/>
-<value cvar="cs_acc_user" default="Player" x="18" y="-44" w="384" h="16" align="left" charsize="small" color="${c-text}"/>
-<label text="EXP" x="18" y="-26" w="30" h="12" align="left" charsize="small" color="${c-dim}"/>
-<bar cvar="cs_acc_xp" max="${xp-max}" x="50" y="-24" w="150" h="10"/>
-<value cvar="cs_acc_xp" default="0" max="${xp-max}" format="{}/{max} ({pct}%)"
+		<value cvar="cs_acc_user" default="Player" x="18" y="-44" w="384" h="16" align="left" charsize="small" color="${c-text}"/>
+		<label text="EXP" x="18" y="-26" w="30" h="12" align="left" charsize="small" color="${c-dim}"/>
+		<bar cvar="cs_acc_xp" max="${xp-max}" x="50" y="-24" w="150" h="10"/>
+		<value cvar="cs_acc_xp" default="0" max="${xp-max}" format="{}/{max} ({pct}%)"
        x="206" y="-27" w="196" h="14" align="left" charsize="small" color="${c-dim}"/>
-<value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
+		<value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
        x="430" y="-38" w="240" h="22" align="left" charsize="small" color="${c-text}"/>
 
 		<image src="gfx/shell/bar_shop.png" focus-src="gfx/shell/bar_shop_f.png" press-src="gfx/shell/bar_shop_p.png" x="-208" y="-48" w="44" h="44" notify="true" onclick="menu:shop"/>
