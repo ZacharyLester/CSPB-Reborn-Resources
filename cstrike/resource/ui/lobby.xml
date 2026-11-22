@@ -62,10 +62,10 @@
 <value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
        x="430" y="-38" w="240" h="22" align="left" charsize="small" color="${c-text}"/>
 
-	<image src="gfx/shell/bar_shop.png" focus-src="gfx/shell/bar_shop_f.png" press-src="gfx/shell/bar_shop_p.png" x="-208" y="-48" w="44" h="44" notify="true" onclick="menu:shop"/>
-	<image src="gfx/shell/bar_loadout.png" focus-src="gfx/shell/bar_loadout_f.png" press-src="gfx/shell/bar_loadout_p.png" x="-156" y="-48" w="44" h="44" notify="true" onclick="menu:loadout"/>
-	<image src="gfx/shell/bar_settings.png" focus-src="gfx/shell/bar_settings_f.png" press-src="gfx/shell/bar_settings_p.png" x="-104" y="-48" w="44" h="44" notify="true" onclick="menu:options"/>
-	<image src="gfx/shell/bar_quit.png" focus-src="gfx/shell/bar_quit_f.png" press-src="gfx/shell/bar_quit_p.png" x="-52" y="-48" w="44" h="44" notify="true" onclick="dialog:quit"/>
+	<image src="gfx/vgui/menu/bar_shop.png" focus-src="gfx/vgui/menu/bar_shop_f.png" press-src="gfx/vgui/menu/bar_shop_p.png" x="-208" y="-48" w="44" h="44" notify="true" onclick="menu:shop"/>
+	<image src="gfx/vgui/menu/bar_loadout.png" focus-src="gfx/vgui/menu/bar_loadout_f.png" press-src="gfx/vgui/menu/bar_loadout_p.png" x="-156" y="-48" w="44" h="44" notify="true" onclick="menu:loadout"/>
+	<image src="gfx/vgui/menu/bar_settings.png" focus-src="gfx/vgui/menu/bar_settings_f.png" press-src="gfx/vgui/menu/bar_settings_p.png" x="-104" y="-48" w="44" h="44" notify="true" onclick="menu:options"/>
+	<image src="gfx/vgui/menu/bar_quit.png" focus-src="gfx/vgui/menu/bar_quit_f.png" press-src="gfx/vgui/menu/bar_quit_p.png" x="-52" y="-48" w="44" h="44" notify="true" onclick="dialog:quit"/>
 
 	<messagebox id="quit" yes="cmd:quit">
 		<text when="singleplayer-game">@IDS_MAIN_QUITPROMPTINGAME</text>
