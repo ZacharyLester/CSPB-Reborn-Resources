@@ -1,0 +1,15 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu>
+	<include src="resource/ui/theme.xml"/>
+	<define name="store-mode" value="inventory"/>
+	<include src="resource/ui/store-common.xml"/>
+
+	<!-- equipment in use; click a slot to filter the grid -->
+	<panel x="-874" y="60" w="130" h="420">
+		<rect x="0" y="0" w="130" h="22" fill="#0A2A5A" border="${c-accent}"/>
+		<label text="Equipment in use" x="0" y="2" w="130" h="18" charsize="small" color="${c-text}"/>
+		<slots tag="slots" x="0" y="26" w="130" h="340" charsize="small"/>
+		<rect x="0" y="372" w="130" h="24" fill="${c-panel}" border="${c-line}"/>
+		<label text="ACCESSORY" x="0" y="376" w="130" h="16" charsize="small" color="${c-dim}"/>
+	</panel>
+</menu>

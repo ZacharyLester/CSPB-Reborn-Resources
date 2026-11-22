@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu banner="gfx/shell/head_touch">
+	<buttons x="72" y="230" pitch="50">
+		<button text="Touch options" status="Touch sensitivity and profile options" onclick="menu:touchoptions"/>
+		<button text="Touch buttons" status="Add, remove, edit touch buttons"       onclick="menu:touchbuttons"/>
+		<button icon="done" text="Done" status="Go back to the previous menu" onclick="back"/>
+	</buttons>
+</menu>

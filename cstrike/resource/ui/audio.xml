@@ -1,0 +1,23 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu banner="gfx/shell/head_audio">
+	<on event="show" do="call:audio.sync"/>
+
+	<button icon="done" text="Done" status="Go back to the Configuration Menu" x="72" y="230" onclick="save"/>
+
+	<slider cvar="volume"           text="Game sound volume"  status="Set master volume level"           x="320" y="280" min="0" max="1" step="0.05"/>
+	<slider cvar="MP3Volume"        text="Game music volume"  status="Set background music volume level" x="320" y="340" min="0" max="1" step="0.05"/>
+	<slider cvar="suitvolume"       text="Suit volume"        status="Set suit volume level"              x="320" y="400" min="0" max="1" step="0.05"/>
+
+	<spin cvar="s_lerping" text="Sound interpolation" status="Enable/disable interpolation on sound output"
+	      options="Disabled,Balance,Quality" font="small" x="320" y="470" w="300" h="32"/>
+
+	<checkbox cvar="dsp_off"            text="Disable DSP effects"    status="Disable sound processing (like echo, flanger, etc)" x="320" y="520"/>
+	<checkbox cvar="snd_mute_losefocus" text="Mute when inactive"     status="Disable sound when game goes into background"       x="320" y="570"/>
+	<checkbox cvar="s_reverse_channels" text="Reverse audio channels" status="Use it when you can't swap your headphones' speakers" x="320" y="620"/>
+
+	<!-- the checkbox greys out the slider until it is ticked -->
+	<checkbox cvar="vibration_enable" text="Enable vibration" status="In-game vibration (when player injured, etc)"
+	          x="700" y="470" immediate="false" enables="vibration"/>
+	<slider tag="vibration" cvar="vibration_length" text="Vibration" status="Default vibration length"
+	        x="700" y="570" min="0" max="5" step="0.05" onchange="call:audio.vibrate"/>
+</menu>

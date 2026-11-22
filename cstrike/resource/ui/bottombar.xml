@@ -1,0 +1,24 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Bottom bar shared by every screen. Include after theme.xml. Needs xp-max. -->
+<fragment>
+	<define name="xp-max" value="1500"/>
+	<panel x="0" y="0" w="-1" h="-1" visible-if="!ingame">
+		<rect x="0" y="-52" w="-1" h="52" fill="${c-top}"/>
+
+		<rect x="10" y="-46" w="400" h="40" fill="${c-panel}" border="${c-line}"/>
+<value cvar="cs_acc_user" default="Player" x="18" y="-44" w="384" h="16" align="left" charsize="small" color="${c-text}"/>
+<label text="EXP" x="18" y="-26" w="30" h="12" align="left" charsize="small" color="${c-dim}"/>
+<bar cvar="cs_acc_xp" max="${xp-max}" x="50" y="-24" w="150" h="10"/>
+<value cvar="cs_acc_xp" default="0" max="${xp-max}" format="{}/{max} ({pct}%)"
+       x="206" y="-27" w="196" h="14" align="left" charsize="small" color="${c-dim}"/>
+<value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
+       x="430" y="-38" w="240" h="22" align="left" charsize="small" color="${c-text}"/>
+
+		<tile text="SHOP"     x="-564" y="-48" w="100" h="44" onclick="menu:shop"/>
+		<tile text="LOADOUT"  x="-460" y="-48" w="100" h="44" onclick="menu:loadout"/>
+		<tile text="MY INFO"  x="-356" y="-48" w="100" h="44" onclick="menu:account"/>
+		<tile text="UPDATE"   x="-252" y="-48" w="100" h="44" onclick="menu:update"/>
+		<tile text="Settings" x="-144" y="-48" w="64"  h="44" charsize="small" onclick="menu:options"/>
+		<tile text="Quit"     x="-72"  y="-48" w="64"  h="44" charsize="small" onclick="dialog:quit"/>
+	</panel>
+</fragment>

@@ -1,0 +1,84 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Main menu, lobby style. Positive x/y count from the left/top, NEGATIVE x/y count
+  from the right/bottom edge, so the layout stays anchored on any aspect ratio.
+  Children of a <panel> are positioned relative to it.
+  Edit, then type  ui_xml_reload  in the console.
+-->
+<menu>
+	<include src="resource/ui/theme.xml"/>
+	<define name="xp-max" value="1500"/>
+
+	<on event="show" do="call:ui.clear_button_stack"/>
+	<on event="show" when="!ingame" do="call:rooms.refresh"/>
+	<on event="show" when="!ingame" do="cmd:cs_refresh"/>
+	<on event="escape" when="ingame" do="close"/>
+	<on event="escape" when="!ingame" do="dialog:quit"/>
+
+	<!-- ===================== LOBBY (not in a match) ===================== -->
+	<panel x="0" y="0" w="-1" h="-1" visible-if="!ingame">
+
+		<!-- top bar -->
+		<rect x="0" y="0" w="-1" h="38" fill="${c-top}"/>
+		<label text="${game-title}" x="14" y="6" w="260" h="26" align="left" color="${c-text}"/>
+		<label text="Public Server 01" x="280" y="10" w="240" h="18" align="left" charsize="small" color="${c-dim}"/>
+		<tile align="center" if="developer" text="Console" x="-96" y="8" w="84" h="22" charsize="small" onclick="call:ui.console"/>
+
+		<!-- left tabs -->
+		<tile align="center" text="Mission Card" group="left" selected="true" x="14" y="48" w="104" h="20" charsize="small"/>
+
+		<!-- room list panel -->
+		<panel x="-796" y="50" w="780" h="656">
+			<rect x="0" y="0" w="780" h="656" fill="${c-panel}" border="${c-line}"/>
+			<label text="001   Public Server 01" x="14" y="10" w="300" h="20" align="left" charsize="small" color="${c-text}"/>
+
+			<table source="rooms" x="8" y="40" w="764" h="350" charsize="small" sorting="true" framed="true">
+				<column title=""          width="32"   fixed="true"/>
+				<column title="Room Name" width="0.45"/>
+				<column title="Stage"     width="0.25"/>
+				<column title="Player"    width="90"   fixed="true"/>
+				<column title="Ping"      width="90"   fixed="true"/>
+			</table>
+
+			<!-- chat / notice -->
+			<tile align="center" text="All"     group="chat" selected="true" x="8"   y="400" w="106" h="22" charsize="small"/>
+			<tile align="center" text="Team"    group="chat" x="116" y="400" w="106" h="22" charsize="small"/>
+			<tile align="center" text="Clan"    group="chat" x="224" y="400" w="106" h="22" charsize="small"/>
+			<tile align="center" text="Whisper" group="chat" x="332" y="400" w="106" h="22" charsize="small"/>
+			<tile align="center" text="Notice"  group="chat" x="440" y="400" w="106" h="22" charsize="small"/>
+			<rect x="8" y="424" w="764" h="150" fill="${c-well}" border="${c-line}"/>
+			<label x="16" y="430" w="748" h="136" align="top-left" charsize="small" color="${c-accent}"
+			       text="[Notice] Welcome to ${game-title}. Pick a room from the list, or press QUICK START."/>
+
+			<!-- actions -->
+			<tile align="center" text="QUICK START" x="8" y="590" w="250" h="52" fill="${c-accent}" hover-fill="${c-hover}"
+			      border="${c-hover}" onclick="call:rooms.quick"/>
+			<tile align="center" text="Create"   x="-308" y="594" w="72" h="44" charsize="small" onclick="call:ui.lobby_create"/>
+			<tile align="center" text="Internet" group="src" selected="true" x="-232" y="594" w="72" h="44" charsize="small" onclick="call:rooms.source internet"/>
+			<tile align="center" text="LAN"      group="src" x="-156" y="594" w="72" h="44" charsize="small" onclick="call:rooms.source lan"/>
+			<tile align="center" text="Refresh"  x="-80"  y="594" w="72" h="44" charsize="small" onclick="call:rooms.refresh"/>
+		</panel>
+
+		<!-- bottom bar -->
+		<rect x="0" y="-52" w="-1" h="52" fill="${c-top}"/>
+
+		<rect x="10" y="-46" w="400" h="40" fill="${c-panel}" border="${c-line}"/>
+<value cvar="cs_acc_user" default="Player" x="18" y="-44" w="384" h="16" align="left" charsize="small" color="${c-text}"/>
+<label text="EXP" x="18" y="-26" w="30" h="12" align="left" charsize="small" color="${c-dim}"/>
+<bar cvar="cs_acc_xp" max="${xp-max}" x="50" y="-24" w="150" h="10"/>
+<value cvar="cs_acc_xp" default="0" max="${xp-max}" format="{}/{max} ({pct}%)"
+       x="206" y="-27" w="196" h="14" align="left" charsize="small" color="${c-dim}"/>
+<value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
+       x="430" y="-38" w="240" h="22" align="left" charsize="small" color="${c-text}"/>
+
+		<image src="gfx/shell/bar_shop.png" focus-src="gfx/shell/bar_shop_f.png" press-src="gfx/shell/bar_shop_p.png" x="-208" y="-48" w="44" h="44" notify="true" onclick="menu:shop"/>
+		<image src="gfx/shell/bar_loadout.png" focus-src="gfx/shell/bar_loadout_f.png" press-src="gfx/shell/bar_loadout_p.png" x="-156" y="-48" w="44" h="44" notify="true" onclick="menu:loadout"/>
+		<image src="gfx/shell/bar_settings.png" focus-src="gfx/shell/bar_settings_f.png" press-src="gfx/shell/bar_settings_p.png" x="-104" y="-48" w="44" h="44" notify="true" onclick="menu:options"/>
+		<image src="gfx/shell/bar_quit.png" focus-src="gfx/shell/bar_quit_f.png" press-src="gfx/shell/bar_quit_p.png" x="-52" y="-48" w="44" h="44" notify="true" onclick="dialog:quit"/>
+	</panel>
+
+	<messagebox id="quit" yes="cmd:quit">
+		<text when="singleplayer-game">@IDS_MAIN_QUITPROMPTINGAME</text>
+		<text>@IDS_MAIN_QUITPROMPT</text>
+	</messagebox>
+</menu>

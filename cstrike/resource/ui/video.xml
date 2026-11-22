@@ -1,0 +1,8 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu banner="gfx/shell/head_video">
+	<buttons x="72" y="230" pitch="50">
+		<button icon="vid_opt"   text="Video options" status="Set video options such as screen size, gamma and image quality." onclick="menu:vidoptions"/>
+		<button icon="vid_modes" text="Video modes"   status="Set video modes and configure 3D accelerators." onclick="menu:vidmodes"/>
+		<button icon="done"      text="Done"          status="Go back to the previous menu" onclick="back"/>
+	</buttons>
+</menu>

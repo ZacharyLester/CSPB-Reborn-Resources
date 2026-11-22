@@ -1,0 +1,19 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu transition="out">
+	<button icon="done" text="Done" status="save changed and go back to the Customize Menu"
+	        x="72" y="680" onclick="save"/>
+
+	<checkbox tag="mouse" cvar="m_ignore" text="Ignore mouse"
+	          status="Need for some servers. Will disable mouse in menu too"
+	          x="72" y="230" immediate="false" onchange="call:inputdev.mouse_changed"/>
+	<checkbox cvar="touch_enable" text="Enable touch" status="On-screen controls for touchscreen"
+	          x="72" y="280" immediate="false"/>
+	<checkbox cvar="joy_enable" text="Enable joystick" x="72" y="330" immediate="false"/>
+
+	<button if="android" text="Evdev input (root)"
+	        status="Press this to enable full mouse and keyboard control on Android"
+	        x="72" y="380" onclick="cmd:evdev_autodetect"/>
+
+	<messagebox id="mousewarn" no="call:inputdev.mouse_revert"
+	            text="If you do not have touchscreen, or joystick, you will not be able to play without mouse. Are you sure to disable mouse?"/>
+</menu>

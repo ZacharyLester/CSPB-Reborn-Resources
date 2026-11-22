@@ -1,0 +1,28 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Pause menu, shown by UI_Main_Menu while a match is running.
+  background="false": the engine's static menu background is not added, so the
+  match stays visible behind the buttons.
+-->
+<menu background="false">
+	<include src="resource/ui/theme.xml"/>
+
+	<on event="escape" do="close"/>
+	<!-- engine cvar: render the 3D world behind the menu, otherwise it is a flat grey -->
+	<on event="show" do="set:ui_renderworld=1"/>
+
+	<tile align="center" text="Resume"     x="c-130" y="c-135" w="260" h="46" fill="${c-accent}" hover-fill="${c-hover}"
+	      border="${c-hover}" onclick="close"/>
+	<tile align="center" text="Console"    x="c-130" y="c-79"  w="260" h="46" onclick="call:ui.console"/>
+	<tile align="center" text="Disconnect" x="c-130" y="c-23"  w="260" h="46" onclick="dialog:disconnect"/>
+	<tile align="center" text="Options"    x="c-130" y="c+33"  w="260" h="46" onclick="menu:options"/>
+	<tile align="center" text="Quit"       x="c-130" y="c+89"  w="260" h="46" onclick="dialog:quit"/>
+
+	<messagebox id="quit" yes="cmd:quit">
+		<text when="singleplayer-game">@IDS_MAIN_QUITPROMPTINGAME</text>
+		<text>@IDS_MAIN_QUITPROMPT</text>
+	</messagebox>
+
+	<messagebox id="disconnect" text="Really disconnect?"
+	            yes="cmd:cmd disconnect;endgame disconnect;wait;wait;wait;menu_options;menu_main"/>
+</menu>

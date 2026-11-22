@@ -1,0 +1,129 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Options. Generated layout: Game / Video / Audio / Control tabs.
+  Sliders and choices write their cvar straight away; "Cancel" (or Esc) puts the values
+  from when the screen was opened back, "Default" resets every control that has a default.
+-->
+<menu transition="out">
+	<include src="resource/ui/theme.xml"/>
+
+	<on event="show" do="call:audio.sync"/>
+	<on event="escape" do="revert"/>
+
+	<rect x="0" y="0" w="-1" h="-1" fill="#000000B8"/>
+
+	<panel x="c-440" y="c-372" w="880" h="744">
+		<rect x="0" y="0" w="880" h="744" fill="${c-panel}" border="${c-line}"/>
+		<label text="Options" x="24" y="14" w="240" h="30" align="left" color="${c-text}"/>
+
+		<tile align="center" text="Game"    group="otab" selected="true" x="20"  y="60" w="205" h="34" onclick="show:tab-game | hide:tab-video | hide:tab-audio | hide:tab-control"/>
+		<tile align="center" text="Video"   group="otab" x="227" y="60" w="205" h="34" onclick="hide:tab-game | show:tab-video | hide:tab-audio | hide:tab-control"/>
+		<tile align="center" text="Audio"   group="otab" x="434" y="60" w="205" h="34" onclick="hide:tab-game | hide:tab-video | show:tab-audio | hide:tab-control"/>
+		<tile align="center" text="Control" group="otab" x="641" y="60" w="205" h="34" onclick="hide:tab-game | hide:tab-video | hide:tab-audio | show:tab-control"/>
+		<rect x="20" y="98" w="840" h="2" fill="${c-line}"/>
+
+		<panel tag="tab-game" x="0" y="108" w="880" h="566">
+			<label text="Performance" x="30" y="10" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Max FPS" x="30" y="48" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="fps_max" min="20" max="500" step="20" default="100" x="330" y="44" w="320" h="28"/>
+			<label text="Local weapons" x="30" y="92" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="cl_lw" value="0" x="330" y="88" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="cl_lw" value="1" default="true" x="482" y="88" w="150" h="28" charsize="small"/>
+			<label text="Network" x="30" y="132" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Allow file downloads" x="30" y="170" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="sv_allow_download" value="0" x="330" y="166" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="sv_allow_download" value="1" default="true" x="482" y="166" w="150" h="28" charsize="small"/>
+			<label text="Network speed (rate)" x="30" y="214" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="rate" min="2500" max="90000" step="500" default="25000" x="330" y="210" w="320" h="28"/>
+			<label text="Command rate" x="30" y="258" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="cl_cmdrate" min="20" max="60" step="5" default="30" x="330" y="254" w="320" h="28"/>
+			<label text="Update rate" x="30" y="302" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="cl_updaterate" min="20" max="100" step="5" default="60" x="330" y="298" w="320" h="28"/>
+			<tile align="center" text="Check for updates" x="330" y="350" w="200" h="32" charsize="small" onclick="dialog:update"/>
+		</panel>
+
+		<panel tag="tab-video" x="0" y="108" w="880" h="566" hidden="true">
+			<label text="Display" x="30" y="10" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Screen size" x="30" y="48" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="viewsize" min="30" max="120" step="10" default="120" x="330" y="44" w="320" h="28"/>
+			<label text="Brightness" x="30" y="92" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="brightness" min="0" max="3" step="0.1" x="330" y="88" w="320" h="28"/>
+			<label text="V-Sync" x="30" y="136" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="gl_swapInterval" value="0" default="true" x="330" y="132" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="gl_swapInterval" value="1" x="482" y="132" w="150" h="28" charsize="small"/>
+			<tile align="center" text="Video modes..." x="330" y="176" w="200" h="32" charsize="small" onclick="menu:vidmodes"/>
+			<label text="Quality" x="30" y="228" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Bump mapping" x="30" y="266" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="r_bump" value="0" x="330" y="262" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="r_bump" value="1" default="true" x="482" y="262" w="150" h="28" charsize="small"/>
+			<label text="New world renderer (VBO)" x="30" y="310" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="r_vbo" value="0" x="330" y="306" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="r_vbo" value="1" default="true" x="482" y="306" w="150" h="28" charsize="small"/>
+			<label text="Simple sky" x="30" y="354" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="r_fastsky" value="0" default="true" x="330" y="350" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="r_fastsky" value="1" x="482" y="350" w="150" h="28" charsize="small"/>
+			<label text="Allow hi-res materials" x="30" y="398" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="host_allow_materials" value="0" x="330" y="394" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="host_allow_materials" value="1" default="true" x="482" y="394" w="150" h="28" charsize="small"/>
+		</panel>
+
+		<panel tag="tab-audio" x="0" y="108" w="880" h="566" hidden="true">
+			<label text="Volume" x="30" y="10" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Game sound" x="30" y="48" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="volume" min="0" max="1" step="0.05" default="0.8" x="330" y="44" w="320" h="28"/>
+			<label text="Game music" x="30" y="92" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="MP3Volume" min="0" max="1" step="0.05" default="0.8" x="330" y="88" w="320" h="28"/>
+			<label text="Suit voice" x="30" y="136" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="suitvolume" min="0" max="1" step="0.05" default="0.25" x="330" y="132" w="320" h="28"/>
+			<label text="Quality" x="30" y="184" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Sound interpolation" x="30" y="222" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Disabled" cvar="s_lerping" value="0" x="330" y="218" w="100" h="28" charsize="small"/>
+			<tile align="center" text="Balance" cvar="s_lerping" value="1" x="432" y="218" w="100" h="28" charsize="small"/>
+			<tile align="center" text="Quality" cvar="s_lerping" value="2" default="true" x="534" y="218" w="100" h="28" charsize="small"/>
+			<label text="DSP effects" x="30" y="266" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Enabled" cvar="dsp_off" value="0" default="true" x="330" y="262" w="150" h="28" charsize="small"/>
+			<tile align="center" text="Disabled" cvar="dsp_off" value="1" x="482" y="262" w="150" h="28" charsize="small"/>
+			<label text="Mute when inactive" x="30" y="310" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="snd_mute_losefocus" value="0" x="330" y="306" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="snd_mute_losefocus" value="1" default="true" x="482" y="306" w="150" h="28" charsize="small"/>
+			<label text="Reverse audio channels" x="30" y="354" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="s_reverse_channels" value="0" default="true" x="330" y="350" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="s_reverse_channels" value="1" x="482" y="350" w="150" h="28" charsize="small"/>
+			<label text="Vibration" x="30" y="402" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Enable vibration" x="30" y="440" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="vibration_enable" value="0" x="330" y="436" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="vibration_enable" value="1" default="true" x="482" y="436" w="150" h="28" charsize="small"/>
+			<label text="Vibration length" x="30" y="484" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="vibration_length" min="0" max="5" step="0.05" default="1" x="330" y="480" w="320" h="28" tag="vibration" enabled-if="cvar:vibration_enable" onchange="call:audio.vibrate"/>
+		</panel>
+
+		<panel tag="tab-control" x="0" y="108" w="880" h="566" hidden="true">
+			<label text="Mouse" x="30" y="10" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Sensitivity" x="30" y="48" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<slider cvar="sensitivity" min="0.1" max="20" step="0.1" default="3" x="330" y="44" w="320" h="28"/>
+			<label text="Mouse filter" x="30" y="92" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="m_filter" value="0" default="true" x="330" y="88" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="m_filter" value="1" x="482" y="88" w="150" h="28" charsize="small"/>
+			<label text="Invert mouse" x="30" y="136" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="m_pitch" value="0.022" default="true" x="330" y="132" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="m_pitch" value="-0.022" x="482" y="132" w="150" h="28" charsize="small"/>
+			<label text="Devices" x="30" y="184" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<label text="Touch controls" x="30" y="222" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="touch_enable" value="0" x="330" y="218" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="touch_enable" value="1" default="true" x="482" y="218" w="150" h="28" charsize="small"/>
+			<label text="Joystick" x="30" y="266" w="290" h="20" align="left" charsize="small" color="${c-text}"/>
+			<tile align="center" text="Off" cvar="joy_enable" value="0" default="true" x="330" y="262" w="150" h="28" charsize="small"/>
+			<tile align="center" text="On" cvar="joy_enable" value="1" x="482" y="262" w="150" h="28" charsize="small"/>
+			<label text="Bindings" x="30" y="314" w="300" h="22" align="left" charsize="small" color="${c-hover}"/>
+			<tile align="center" text="Key bindings" x="30" y="348" w="200" h="32" charsize="small" onclick="menu:controls"/>
+			<tile align="center" text="Touch settings" x="232" y="348" w="200" h="32" charsize="small" onclick="menu:touch"/>
+			<tile align="center" text="Gamepad" x="434" y="348" w="200" h="32" charsize="small" onclick="menu:gamepad"/>
+		</panel>
+
+		<tile align="center" text="Default" x="20"   y="-54" w="190" h="40" fill="#4A4F5C" hover-fill="#666C7A" border="#8A90A0" onclick="defaults"/>
+		<tile align="center" text="Accept"  x="-410" y="-54" w="190" h="40" fill="${c-accent}" hover-fill="${c-hover}" border="${c-hover}" onclick="save"/>
+		<tile align="center" text="Cancel"  x="-210" y="-54" w="190" h="40" onclick="revert"/>
+	</panel>
+
+	<messagebox id="update" text="Check the Internet for updates?" yes="call:ui.open_update_page"/>
+</menu>

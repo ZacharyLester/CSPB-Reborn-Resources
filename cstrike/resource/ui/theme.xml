@@ -1,0 +1,14 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!-- Shared colours and names. Included by the layouts that use the flat "lobby" look. -->
+<fragment>
+	<define name="game-title" value="CSPB REBORN"/>
+
+	<define name="c-top"      value="#070D18F2"/>
+	<define name="c-panel"    value="#0B1830EE"/>
+	<define name="c-well"     value="#08101FF0"/>
+	<define name="c-line"     value="#25416B"/>
+	<define name="c-accent"   value="#1E7BFF"/>
+	<define name="c-hover"    value="#3D95FF"/>
+	<define name="c-text"     value="#DCE8F8"/>
+	<define name="c-dim"      value="#8FA6C6"/>
+</fragment>

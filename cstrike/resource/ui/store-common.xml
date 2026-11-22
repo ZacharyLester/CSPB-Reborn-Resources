@@ -1,0 +1,81 @@
+<?xml version="1.0" encoding="utf-8"?>
+<!--
+  Shared body of the shop and inventory screens. The including layout defines
+  "store-mode" (shop or inventory) first.
+-->
+<fragment>
+	<define name="xp-max" value="1500"/>
+	<panel x="0" y="0" w="-1" h="-1" visible-if="!ingame">
+		<!-- top bar, same as the main menu -->
+		<rect x="0" y="0" w="-1" h="38" fill="${c-top}"/>
+		<label text="${game-title}" x="14" y="6" w="260" h="26" align="left" color="${c-text}"/>
+		<label text="Public Server 01" x="280" y="10" w="240" h="18" align="left" charsize="small" color="${c-dim}"/>
+		<tile align="center" if="developer" text="Console" x="-96" y="8" w="84" h="22" charsize="small" onclick="call:ui.console"/>
+
+		<rect x="0" y="-52" w="-1" h="52" fill="${c-top}"/>
+
+		<rect x="10" y="-46" w="400" h="40" fill="${c-panel}" border="${c-line}"/>
+<value cvar="cs_acc_user" default="Player" x="18" y="-44" w="384" h="16" align="left" charsize="small" color="${c-text}"/>
+<label text="EXP" x="18" y="-26" w="30" h="12" align="left" charsize="small" color="${c-dim}"/>
+<bar cvar="cs_acc_xp" max="${xp-max}" x="50" y="-24" w="150" h="10"/>
+<value cvar="cs_acc_xp" default="0" max="${xp-max}" format="{}/{max} ({pct}%)"
+       x="206" y="-27" w="196" h="14" align="left" charsize="small" color="${c-dim}"/>
+<value cvar="cs_acc_points" default="0" format="Point   {}" thousands="true"
+       x="430" y="-38" w="240" h="22" align="left" charsize="small" color="${c-text}"/>
+
+		<image src="gfx/shell/bar_shop.png" focus-src="gfx/shell/bar_shop_f.png" press-src="gfx/shell/bar_shop_p.png" x="-208" y="-48" w="44" h="44" notify="true" onclick="menu:shop"/>
+		<image src="gfx/shell/bar_loadout.png" focus-src="gfx/shell/bar_loadout_f.png" press-src="gfx/shell/bar_loadout_p.png" x="-156" y="-48" w="44" h="44" notify="true" onclick="menu:loadout"/>
+		<image src="gfx/shell/bar_settings.png" focus-src="gfx/shell/bar_settings_f.png" press-src="gfx/shell/bar_settings_p.png" x="-104" y="-48" w="44" h="44" notify="true" onclick="menu:options"/>
+		<image src="gfx/shell/bar_quit.png" focus-src="gfx/shell/bar_quit_f.png" press-src="gfx/shell/bar_quit_p.png" x="-52" y="-48" w="44" h="44" notify="true" onclick="dialog:quit"/>
+	</panel>
+
+	<on event="escape" do="back"/>
+	<on event="show" do="cmd:cs_refresh | call:store.reset | show:subtabs"/>
+
+	<panel x="-736" y="46" w="-8" h="-60">
+		<rect x="0" y="0" w="728" h="-1" fill="${c-panel}" border="${c-line}"/>
+
+		<!-- category tabs; each is bound to the ui_store_cat cvar the grid publishes -->
+		<tile align="center" text="WEAPON"    cvar="ui_store_cat" value="0" x="6"   y="6" w="122" h="34" onclick="call:store.tab 0 | show:subtabs"/>
+		<tile align="center" text="CHARACTER" cvar="ui_store_cat" value="1" x="130" y="6" w="122" h="34" onclick="call:store.tab 1 | hide:subtabs"/>
+		<tile align="center" text="ITEM"      cvar="ui_store_cat" value="2" x="254" y="6" w="122" h="34" onclick="call:store.tab 2 | hide:subtabs"/>
+
+		<!-- weapon slot filter -->
+		<panel tag="subtabs" x="0" y="44" w="728" h="28">
+			<tile align="center" text="All"       cvar="ui_store_slot" value="0" x="6"   y="0" w="116" h="26" charsize="small" onclick="call:store.slot 0"/>
+			<tile align="center" text="Main"      cvar="ui_store_slot" value="1" x="124" y="0" w="116" h="26" charsize="small" onclick="call:store.slot 1"/>
+			<tile align="center" text="Secondary" cvar="ui_store_slot" value="2" x="242" y="0" w="116" h="26" charsize="small" onclick="call:store.slot 2"/>
+			<tile align="center" text="Melee"     cvar="ui_store_slot" value="3" x="360" y="0" w="116" h="26" charsize="small" onclick="call:store.slot 3"/>
+			<tile align="center" text="Explosive" cvar="ui_store_slot" value="4" x="478" y="0" w="116" h="26" charsize="small" onclick="call:store.slot 4"/>
+			<tile align="center" text="Special"   cvar="ui_store_slot" value="5" x="596" y="0" w="116" h="26" charsize="small" onclick="call:store.slot 5"/>
+		</panel>
+
+		<!-- search + count -->
+		<field cvar="ui_store_search" x="6" y="78" w="470" h="24" immediate="true" onchange="call:store.search"/>
+		<value cvar="ui_store_count" x="-186" y="80" w="178" h="20" align="right" charsize="small" color="${c-text}"/>
+
+		<!-- item cards -->
+		<cardgrid tag="grid" mode="${store-mode}" x="6" y="110" w="704" h="296" charsize="small"/>
+
+		<!-- selected item -->
+		<rect x="6" y="414" w="716" h="178" fill="${c-well}" border="${c-line}"/>
+		<value cvar="ui_sel_name" x="18" y="422" w="360" h="20" align="left" color="${c-hover}"/>
+		<picture cvar="ui_sel_image" x="18" y="450" w="210" h="110"/>
+
+		<label text="Type"    x="260" y="456" w="80" h="18" align="left" charsize="small" color="${c-dim}"/>
+		<value cvar="ui_sel_kind" x="340" y="456" w="200" h="18" align="left" charsize="small" color="${c-text}"/>
+		<label text="Bullets" x="260" y="482" w="80" h="18" align="left" charsize="small" color="${c-dim}"/>
+		<value cvar="ui_sel_bullets" default="-" x="340" y="482" w="200" h="18" align="left" charsize="small" color="${c-text}"/>
+		<label text="Status"  x="260" y="508" w="80" h="18" align="left" charsize="small" color="${c-dim}"/>
+		<value cvar="ui_sel_sub" default="-" x="340" y="508" w="200" h="18" align="left" charsize="small" color="${c-text}"/>
+		<value cvar="ui_store_notice" x="260" y="548" w="330" h="18" align="left" charsize="small" color="#FFC857"/>
+
+		<tile align="center" text-cvar="ui_sel_btn" enabled-cvar="ui_sel_enabled" x="-258" y="434" w="240" h="44"
+		      fill="${c-accent}" hover-fill="${c-hover}" border="${c-hover}" onclick="call:store.act"/>
+
+		<tile align="center" text="Exit" x="-258" y="-48" w="240" h="40" onclick="back"/>
+	</panel>
+
+	<messagebox id="buy" text-cvar="ui_store_confirm" yes="call:store.dobuy"/>
+	<messagebox id="use" text-cvar="ui_store_confirm" yes="call:store.douse"/>
+</fragment>
