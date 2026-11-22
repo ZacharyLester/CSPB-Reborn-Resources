@@ -1,4 +1,4 @@
-#apk 9 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
+#apk 10 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
 2836224:18b3b128373e3b17846403ed5ce708e3 cstrike/arm64-v8a/libclient.so
 947784:a04337ce911401d1e73f9f89e11967a8 cstrike/arm64-v8a/libmenu.so
 4317696:1f7627ee4acf7f8841987432c3b719f5 cstrike/arm64-v8a/libserver.so
@@ -6,7 +6,7 @@
 608080:6553ea5323520659f84b81cfa9091eef cstrike/armeabi-v7a/libmenu.so
 2719520:c76299016ff65b7f00a930c0d823c132 cstrike/armeabi-v7a/libserver.so
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
-82:db2bc009b4777f23764037e89a0be1d8 cstrike/downloaded/apkreq.txt
+84:c5a621c98fdd54c491472b23f338d342 cstrike/downloaded/apkreq.txt
 129636:a44390e6b4823cdf41c8b10b7aa6df06 cstrike/downloaded/cached.wad
 517360:f6dbce04381125ab485ce5e5fcf9b8e1 cstrike/downloaded/cs_assault.wad
 1055884:0e2976b3a03627dd2d199575b13a946f cstrike/downloaded/cs_dust.wad
