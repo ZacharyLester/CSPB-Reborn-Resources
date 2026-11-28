@@ -1,10 +1,10 @@
 #apk 13 https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest
 2852776:82e78c90a0fa3a60f9cd6633281b1e30 cstrike/arm64-v8a/libclient.so
-960072:973315b57df47d59dc3bae2241c9341e cstrike/arm64-v8a/libmenu.so
-4342632:c69b92e06f194ade1127a047c51dad95 cstrike/arm64-v8a/libserver.so
+960072:94a5dd9a228e573c55fa61fa70d33b94 cstrike/arm64-v8a/libmenu.so
+4342632:2c73b92db7046777b26a4928acb652a3 cstrike/arm64-v8a/libserver.so
 1995216:3ab308ac3b931e3a848259a53654062f cstrike/armeabi-v7a/libclient.so
-612176:651105ada827378cba7fa4b1b70b89de cstrike/armeabi-v7a/libmenu.so
-2736120:fef2cf685e8bdc8cebe707b6387fbdf3 cstrike/armeabi-v7a/libserver.so
+612176:0c4a604e06c76640853b36189119d865 cstrike/armeabi-v7a/libmenu.so
+2736120:f98c8d64c13054c35ce6bac1aeda9c8b cstrike/armeabi-v7a/libserver.so
 12532:c4db857c01050da289463f29e7a2b114 cstrike/delta.lst
 3207356:b1c6a91e2d41430dcffed1e8e501f0e3 cstrike/downloaded/DSquad_Textures.wad
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
