@@ -22,6 +22,7 @@ else
 fi
 
 # manifest: optional #apk line, then "size:md5 path" for every file
+# (paths with spaces are kept as-is: path = everything after the first space)
 : > manifest.txt
 if [ "$APK_BUILD" -gt 0 ]; then
 	echo "#apk $APK_BUILD $APK_URL" >> manifest.txt
@@ -33,14 +34,6 @@ fi
 	find cstrike -maxdepth 1 -type f \( -name '*.pak' -o -name 'delta.lst' \)
 } | sort | while IFS= read -r f
 do
-	# the updater's manifest format can't handle spaces in paths,
-	# so skip those files (warn only) and keep going
-	case "$f" in
-		*" "*)
-			echo "skipping (space in path): $f" >&2
-			continue
-			;;
-	esac
 	h=$(md5sum "$f")
 	echo "$(stat -c %s "$f"):${h%% *} $f" >> manifest.txt
 done
@@ -51,6 +44,13 @@ if [ -n "$dups" ]; then
 	echo "case duplicates, fix these first:"
 	echo "$dups"
 	exit 1
+fi
+
+# just inform about paths with spaces, don't stop
+spaces=$(grep -v '^#' manifest.txt | cut -d' ' -f2- | grep ' ')
+if [ -n "$spaces" ]; then
+	echo "note: paths with spaces are included in the manifest:"
+	echo "$spaces"
 fi
 
 # sanity check: file size must match the manifest entry

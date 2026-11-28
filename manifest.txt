@@ -10,6 +10,7 @@
 48456:400ca686fc962aa9265a7e674cef4235 cstrike/downloaded/ajawad.wad
 87:4ccc925af750da02b3607c1761cadbd9 cstrike/downloaded/apkreq.txt
 129636:a44390e6b4823cdf41c8b10b7aa6df06 cstrike/downloaded/cached.wad
+4346720:231d6531d9d51d316323b9d2979399f8 cstrike/downloaded/crackdown 2.wad
 4891844:abc282eab893ad132d52a4a6d3544c2f cstrike/downloaded/crackdown.wad
 517360:f6dbce04381125ab485ce5e5fcf9b8e1 cstrike/downloaded/cs_assault.wad
 1055884:0e2976b3a03627dd2d199575b13a946f cstrike/downloaded/cs_dust.wad
@@ -145,6 +146,19 @@
 16748:dc02f98ddd4cef7714d292a5cfc71b60 cstrike/downloaded/models/dm_library_v2/fadli-ira-anniversary/Windows-ira.mdl
 16748:5280bad31aa88f294ff751f9b7619228 cstrike/downloaded/models/dm_library_v2/fadli-ira-anniversary/Windows-iralux.mdl
 72744:add82575dbf1faece59c28a7e795f0bb cstrike/downloaded/models/dm_library_v2/fadli-ira-anniversary/doc-by-fadli.mdl
+26295:7f0810aa6fafac390b2740cf702cd1db cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/CmdSeq.wc
+1968:d8c93abb68272295b7f40e02cdb5eb65 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/GameCfg.wc
+176536:e30ea79ba84ca817fadf817c56711627 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/fadli-skript47.mdl
+108548:9b822724b864a88347fdf7eb2d6b24bc cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/kursi.mdl
+108548:601fa3cab2654958ba806bccc1424685 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/kursi2.mdl
+71688:a00df16a369b972841799ce9f2838457 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/kursi4.mdl
+64416:ebf268bdc2cca5bc718dae3c6412e221 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/pohon-fadli.mdl
+181152:142a57e04f0f9fbc4ceebb7d003e5b02 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/statue-by-fadli.mdl
+181152:2c53f1225524ca3a05512b732c45f1e0 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/statue-by-skript.mdl
+270224:fc9faad0317dbca7062f8a9eab303bfc cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/window-BC.mdl
+16748:fcd441323fdad8a4eb33510449a4059e cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/windowsfadli.mdl
+72744:88b61f9b9ac69e47498c49f750152517 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/windowsfadli2.mdl
+72744:d9548a1b25716cee1c0b7c3734137f97 cstrike/downloaded/models/dm_saintmansion/Indonesia mapper/windowsfadli3.mdl
 85240:57951affcb06d25209547ea280a15197 cstrike/downloaded/models/dummyguerilla.mdl
 5288:319f93b840bc56939a267f6a37510db4 cstrike/downloaded/models/feather.mdl
 22040:29c6a4bca8d757a21e4d974fe9ca460e cstrike/downloaded/models/fern.mdl
@@ -227,6 +241,7 @@
 7752:2531f37a0ad9ff16641bd6c972dfd05d cstrike/downloaded/models/w_thighpack.mdl
 29912:89bdee6f70516564b2a5e89317b57e30 cstrike/downloaded/models/winebottle.mdl
 147184:0066896ca4b2087f286d7ae32dd5a329 cstrike/downloaded/n0th1ng.wad
+11727552:0480b383bd958df3077fb46375a8f756 cstrike/downloaded/new luxville.wad
 11727552:0480b383bd958df3077fb46375a8f756 cstrike/downloaded/new_luxville.wad
 198:f80120dd5ca42ca018b6903495ebdfc7 cstrike/downloaded/overviews/dm_dsquad_cspb.txt
 254402:9d9a4c87b054eea6bc4a68ae8f67725e cstrike/downloaded/overviews/mini_DSquad.tga
