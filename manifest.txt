@@ -650,7 +650,7 @@
 524228:75e5dfe9bd1c235e94c0cfb25cb55549 cstrike/models/player/urban/urban.mdl
 1479116:2a87f7cdfd1487583a1aa8f33eac36d0 cstrike/models/v_870mcs.mdl
 1524732:4f8212e01aa586bac49cf3736ebe22b4 cstrike/models/v_ak47_fc.mdl
-430656:8813770eac29676bb8790b47708685a3 cstrike/models/v_arabian_sword.mdl
+658240:e60d30343e93992c210ffc38571f51d2 cstrike/models/v_arabian_sword.mdl
 720316:fee3b29cf1ff3ca5842693db6f0482bc cstrike/models/v_butterfly.mdl
 456860:d4c664facad0c1a8e4617088344ae9fd cstrike/models/v_c4.mdl
 54360:af406d621bd90f20f2bbdb0d983acd7b cstrike/models/v_centered.mdl
