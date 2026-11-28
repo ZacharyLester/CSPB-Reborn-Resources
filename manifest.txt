@@ -589,7 +589,7 @@
 3992:a54113771300e0c6ce0caedd088333c4 cstrike/gfx/vgui/wpn_icon/weapon_special.png
 8299:48565b38586f3f1b3767c95f8e215317 cstrike/gfx/vgui/wpn_icon/weapon_ssg69.png
 290518:702f9bafab13f0321603c53909767195 cstrike/gfx/vgui/wpn_icon/weapon_xm2010.png
-3299616:95c3943108d4afff46b5009f974d97be cstrike/models/animpack/female.mdl
+3239300:18f27019dcc9292e9adcf058ddfd508a cstrike/models/animpack/female.mdl
 2678584:0e71d893e2609ff3283fd2d8d72fbf4c cstrike/models/animpack/male.mdl
 354772:72bafe2203d7cd1a0b2a7dcf13744788 cstrike/models/arms/v_acid.mdl
 86928:31c6f02ebc2bf37a3db08ba2177d37a5 cstrike/models/arms/v_acid.wgt
@@ -664,7 +664,7 @@
 386332:a1eb9a652c4c887dc987c36db43e6496 cstrike/models/v_k400.mdl
 420812:e11e28cf04054a6729776ef03996bcdb cstrike/models/v_k5.mdl
 725636:535a86ae1ffb6b096cd345a2db308a85 cstrike/models/v_karambit.mdl
-1003024:bb8097e3a4ee7e2ee12ff38174060f58 cstrike/models/v_kriss_sv.mdl
+1003024:728c4367650d3651ebbeff4d52dd9621 cstrike/models/v_kriss_sv.mdl
 280568:afce4631c17a50d204fc693c949fd2e9 cstrike/models/v_kukri.mdl
 496316:bcde086e38886f6e57004be152eb727f cstrike/models/v_m1887.mdl
 398228:ade6696a5a8b85a0ce0756a257733d17 cstrike/models/v_m7.mdl
