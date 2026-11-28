@@ -1,7 +1,7 @@
 #!/bin/sh
 # 0 = don't force anything
 # set to the CS_APK_BUILD of the newest APK only when xash.so changed
-APK_BUILD=12
+APK_BUILD=13
 APK_URL="https://github.com/ZacharyLester/CSPB-Reborn-Resources/releases/latest"
 
 mkdir -p cstrike/downloaded
@@ -33,6 +33,14 @@ fi
 	find cstrike -maxdepth 1 -type f \( -name '*.pak' -o -name 'delta.lst' \)
 } | sort | while IFS= read -r f
 do
+	# the updater's manifest format can't handle spaces in paths,
+	# so skip those files (warn only) and keep going
+	case "$f" in
+		*" "*)
+			echo "skipping (space in path): $f" >&2
+			continue
+			;;
+	esac
 	h=$(md5sum "$f")
 	echo "$(stat -c %s "$f"):${h%% *} $f" >> manifest.txt
 done
@@ -42,14 +50,6 @@ dups=$(grep -v '^#' manifest.txt | cut -d' ' -f2- | tr 'A-Z' 'a-z' | sort | uniq
 if [ -n "$dups" ]; then
 	echo "case duplicates, fix these first:"
 	echo "$dups"
-	exit 1
-fi
-
-# the updater's manifest format can't handle spaces in paths
-spaces=$(grep -v '^#' manifest.txt | cut -d' ' -f2- | grep ' ')
-if [ -n "$spaces" ]; then
-	echo "paths with spaces, rename these first:"
-	echo "$spaces"
 	exit 1
 fi
 

@@ -1,0 +1,14 @@
+// overview description file for pb_saint_mansion.bsp
+
+global 
+{
+	ZOOM	5.63
+	ORIGIN	97.95	-574.05	334
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/pb_saintmansion.bmp"
+	HEIGHT	334
+}

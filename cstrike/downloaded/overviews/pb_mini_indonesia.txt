@@ -1,0 +1,14 @@
+// overview description file for indi.bsp
+
+global 
+{
+	ZOOM	1.94
+	ORIGIN	160 	576.05	128
+	ROTATED	0
+}
+
+layer 
+{
+	IMAGE	"overviews/mini_indonesia.bmp"
+	HEIGHT	0
+}

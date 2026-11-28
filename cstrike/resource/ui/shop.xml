@@ -1,6 +1,7 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu>
 	<include src="resource/ui/theme.xml"/>
+	<on event="show" do="set:cl_lobby_zoom=0"/>
 	<define name="store-mode" value="shop"/>
 	<include src="resource/ui/store-common.xml"/>
 </menu>

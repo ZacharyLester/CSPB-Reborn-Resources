@@ -1,0 +1,17 @@
+MStation - Deathmatch/Elminate
+
+Description: 
+Setelah Port Akaba berhasil diambil alih oleh CT-Force, 
+Free Rebels yang berhasil lolos dari CT-Force kini 
+merencanakan aksi teror berikut didalam stasiun kereta. 
+Aksi ini berjalan lancar dan tuntuan untuk membebaskan 
+seluruh anggota Free Rebels yang ditangkap sebelumnya.
+Tentu saja CT-Force yang tidak setuju atas tuntuan ini
+segera menerjunkan pasukan elit mereka yang siap 
+menangkap seluruh Free Rebels.
+
+
+Goldsrc version by RE-29 Project (http://RE-29.blogspot.com/)
+Original version from PointBlank (Zepetto Co.)
+
+Current Version: 1.1 (20.08.20)

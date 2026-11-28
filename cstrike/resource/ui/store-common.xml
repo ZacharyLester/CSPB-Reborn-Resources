@@ -30,7 +30,7 @@
 	</panel>
 
 	<on event="escape" do="back"/>
-	<on event="show" do="cmd:cs_refresh | call:store.reset | show:subtabs"/>
+	<on event="show" do="cmd:cs_refresh | call:store.reset"/>
 
 	<panel x="-736" y="46" w="-8" h="-60">
 		<rect x="0" y="0" w="728" h="-1" fill="${c-panel}" border="${c-line}"/>

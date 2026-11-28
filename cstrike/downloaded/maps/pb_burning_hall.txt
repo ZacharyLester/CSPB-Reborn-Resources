@@ -1,0 +1,14 @@
+Burning Hall - Deathmatch/Elminate
+
+Description: 
+Salah satu jurnalis pendukung Free Rebels telah 
+menjadi sasaran target operasi CT-FORCE kali ini! 
+Free Rebels yang telah rumor ini segera bergerak 
+untuk membawa lari sang jurnalis sebelum ditangkap
+CT-FORCE!
+
+
+Goldsrc version by RE-29 Project (http://RE-29.blogspot.com/)
+Original version from PointBlank (Zepetto Co.)
+
+Version: 1.0 (26.09.20)

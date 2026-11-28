@@ -1,0 +1,14 @@
+// overview description file for de_midtown_pb.bsp
+
+global 
+{
+	ZOOM	1.71
+	ORIGIN	807.83	-1295	222
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/pb_midtown.bmp"
+	HEIGHT	222
+}

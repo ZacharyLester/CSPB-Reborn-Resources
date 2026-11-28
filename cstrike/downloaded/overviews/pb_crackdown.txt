@@ -1,0 +1,14 @@
+// overview description file for pb_crackdown.bsp
+
+global 
+{
+	ZOOM	5.41
+	ORIGIN	-48	-1.56	-10
+	ROTATED	1
+}
+
+layer 
+{
+	IMAGE	"overviews/pb_crackdown.bmp"
+	HEIGHT	-10
+}

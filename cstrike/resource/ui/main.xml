@@ -12,6 +12,7 @@
 	<on event="show" do="call:ui.clear_button_stack"/>
 	<on event="show" when="!ingame" do="call:rooms.refresh"/>
 	<on event="show" when="!ingame" do="cmd:cs_refresh"/>
+	<on event="show" do="set:cl_lobby_zoom=0"/>
 	<on event="escape" when="ingame" do="close"/>
 	<on event="escape" when="!ingame" do="dialog:quit"/>
 
